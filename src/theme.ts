@@ -1,9 +1,10 @@
 export type ThemeMode = "light" | "dark" | "system";
-export type ThemePalette = "mono" | "sepia" | "azure" | "moss" | "mauve";
+export type ThemePalette = "animatedwebs" | "mono" | "sepia" | "azure" | "moss" | "mauve";
 
-export const THEME_PALETTES = ["mono", "sepia", "azure", "moss", "mauve"] as const satisfies readonly ThemePalette[];
+export const THEME_PALETTES = ["animatedwebs", "mono", "sepia", "azure", "moss", "mauve"] as const satisfies readonly ThemePalette[];
 
 export const THEME_PALETTE_LABELS: Record<ThemePalette, string> = {
+  animatedwebs: "AnimatedWebs",
   mono: "Monotone",
   sepia: "Sepia",
   azure: "Azure",
@@ -11,16 +12,16 @@ export const THEME_PALETTE_LABELS: Record<ThemePalette, string> = {
   mauve: "Mauve",
 };
 
-export const THEME_STORAGE_KEY = "threeui-theme";
-export const LIGHT_PALETTE_STORAGE_KEY = "threeui-palette-light";
-export const DARK_PALETTE_STORAGE_KEY = "threeui-palette-dark";
+export const THEME_STORAGE_KEY = "awui-theme";
+export const LIGHT_PALETTE_STORAGE_KEY = "awui-palette-light";
+export const DARK_PALETTE_STORAGE_KEY = "awui-palette-dark";
 
 export function isThemeMode(value: string | null | undefined): value is ThemeMode {
   return value === "light" || value === "dark" || value === "system";
 }
 
 export function isThemePalette(value: string | null | undefined): value is ThemePalette {
-  return value === "mono" || value === "sepia" || value === "azure" || value === "moss" || value === "mauve";
+  return value === "animatedwebs" || value === "mono" || value === "sepia" || value === "azure" || value === "moss" || value === "mauve";
 }
 
 export function nextThemePalette(palette: ThemePalette): ThemePalette {
@@ -60,8 +61,8 @@ export function readStoredTheme(): ThemeMode {
 export function readStoredPalette(key: string): ThemePalette {
   try {
     const saved = localStorage.getItem(key);
-    return isThemePalette(saved) ? saved : "mono";
+    return isThemePalette(saved) ? saved : "animatedwebs";
   } catch {
-    return "mono";
+    return "animatedwebs";
   }
 }

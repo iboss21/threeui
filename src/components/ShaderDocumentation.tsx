@@ -104,9 +104,15 @@ let sourceRegistryPromise: Promise<SourceCodeRegistry> | undefined;
 const externalSourcePromises = new Map<string, Promise<string>>();
 
 function loadSourceRegistry() {
-  sourceRegistryPromise ??= fetch("/source-code.json").then(async (response) => {
+  sourceRegistryPromise ??= fetch("/source-code.json", { credentials: "include" }).then(async (response) => {
+    // Source code is an AnimatedWebs Pro feature: 401 = signed out, 403 = free plan.
+    if (response.status === 401) throw new Error("AW_LOCKED_SIGNIN");
+    if (response.status === 403) throw new Error("AW_LOCKED_PRO");
     if (!response.ok) throw new Error(`Source registry request failed with ${response.status}.`);
     return response.json() as Promise<SourceCodeRegistry>;
+  }).catch((error) => {
+    sourceRegistryPromise = undefined;
+    throw error;
   });
   return sourceRegistryPromise;
 }
@@ -376,6 +382,8 @@ function OpenShaderDocumentation({ shader, activeVariantId, onPricing, onSearchT
   const sourceText = useMemo(() => {
     if (sourceTab === "usage") return exampleText;
     if (sourceTab === "renderer") {
+      if (sourceRegistryError === "AW_LOCKED_SIGNIN") return "// Full source code is part of AnimatedWebs Pro.\n// Sign in with your AnimatedWebs account to continue.";
+      if (sourceRegistryError === "AW_LOCKED_PRO") return "// Full source code is part of AnimatedWebs Pro.\n// Upgrade at https://animatedwebs.com/pricing to copy every component.";
       if (sourceRegistryError) return `The local source registry could not be loaded.\n\n${sourceRegistryError}`;
       return selectedSourceFile?.code ?? "Loading stored source…";
     }
@@ -590,6 +598,7 @@ function OpenShaderDocumentation({ shader, activeVariantId, onPricing, onSearchT
             </div>
           </div>
 
+          {sourceRegistryError.startsWith("AW_LOCKED") && <ProLockBanner kind={sourceRegistryError} />}
           <section className="demo inset-shadow" id="usage" aria-label="Usage">
             <div
               className={`preview shader-preview ${shader.id}${shader.category === "Landing Pages" || shader.category === "Hero" ? " tall-page-preview" : ""}`}
@@ -985,5 +994,23 @@ function OpenShaderDocumentation({ shader, activeVariantId, onPricing, onSearchT
       </div>
       <div className={`toast${toast ? " show" : ""}`} role="status" aria-live="polite">{toast}</div>
     </>
+  );
+}
+
+// Upsell shown when the visitor's AnimatedWebs plan does not include source code.
+function ProLockBanner({ kind }: { kind: string }) {
+  const here = typeof window === "undefined" ? "https://tools.animatedwebs.com" : window.location.href;
+  const signedOut = kind === "AW_LOCKED_SIGNIN";
+  return (
+    <div className="aw-lock inset-shadow" role="note">
+      <div>
+        <strong>{signedOut ? "Sign in to unlock the source" : "Unlock every component with Pro"}</strong>
+        <p>Play every component free. AnimatedWebs Pro adds full source, one-click copy and AI build prompts for the whole library, plus cinematic templates and the MCP server.</p>
+      </div>
+      <div className="aw-lock-actions">
+        {signedOut && <a className="aw-lock-secondary" href={`https://animatedwebs.com/sign-in?next=${encodeURIComponent(here)}`}>Sign in free</a>}
+        <a className="aw-lock-primary" href="https://animatedwebs.com/pricing?from=tools">Go Pro</a>
+      </div>
+    </div>
   );
 }
