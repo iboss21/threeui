@@ -17,7 +17,8 @@ export function BrandMark({ compact = false }: { compact?: boolean }) {
         </svg>
       </span>
       <span className="brand-wordmark-text" style={{ fontWeight: 600, letterSpacing: "-0.02em", fontSize: compact ? 15 : 17, whiteSpace: "nowrap" }}>
-        animatedwebs <span style={{ opacity: 0.55, fontWeight: 400 }}>ui</span>
+        AnimatedWebs{" "}
+        <span style={{ marginLeft: 4, padding: "2px 6px", borderRadius: 6, background: "#c6ff3d", color: "#0a0b0a", fontSize: compact ? 10 : 11, fontWeight: 700, letterSpacing: "0.04em", verticalAlign: "middle" }}>UI</span>
       </span>
     </span>
   );

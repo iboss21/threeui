@@ -70,7 +70,7 @@ export function MainContentFooter({ onNavigate }: MainContentFooterProps) {
         <nav className="main-content-footer__nav" aria-label="Company and legal">
           <h2>More</h2>
           <a href="https://animatedwebs.com">AnimatedWebs</a>
-          <a href="https://github.com/MengTo/threeui" target="_blank" rel="noreferrer">Built on ThreeUI (MIT)</a>
+          <a href="/LICENSE.txt">Open-source licenses</a>
           <a href="https://animatedwebs.com/partners">Affiliates</a>
           <a href="https://animatedwebs.com/privacy">Privacy</a>
           <a href="https://animatedwebs.com/terms">Terms</a>
@@ -79,7 +79,7 @@ export function MainContentFooter({ onNavigate }: MainContentFooterProps) {
 
       <div className="main-content-footer__meta">
         <span>© {new Date().getFullYear()} AnimatedWebs UI</span>
-        <span>Built on ThreeUI Community by Meng To · MIT License</span>
+        <span>Open-source components under the MIT License</span>
       </div>
     </footer>
   );

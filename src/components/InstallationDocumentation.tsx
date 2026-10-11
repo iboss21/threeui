@@ -24,7 +24,7 @@ const INSTALLATION_TOC = [
   { id: "verify", label: "Verify setup" },
 ] as const;
 
-const PRO_INSTALL_COMMAND = "npx @designcodeio/threeui-cli add cross-beam";
+const PRO_INSTALL_COMMAND = "npx @animatedwebs/ui-cli add cross-beam";
 
 async function copyText(text: string) {
   await navigator.clipboard.writeText(text);
@@ -46,7 +46,7 @@ export function InstallationDocumentation({ onPricing, onSelect }: InstallationD
           <h1>Installation</h1>
           <p className="lede">Install Community components from npm, or authenticate to download entitled Pro source into your project.</p>
           <div className="tagrow">
-            <span className="tag">@designcodeio/threeui</span>
+            <span className="tag">@animatedwebs/ui</span>
           </div>
           <div className="divider" />
 

@@ -87,7 +87,7 @@ export function buildRouteSeo(route, origin, catalog = [], mediaOptions) {
 
   if (route.page === "installation") {
     title = brandedTitle("Install AnimatedWebs UI for React");
-    description = "Install @designcodeio/threeui, add the shared styles, check peer requirements, and verify your first interactive Three.js component.";
+    description = "Install @animatedwebs/ui, add the shared styles, check peer requirements, and verify your first interactive Three.js component.";
     structuredData = {
       "@context": "https://schema.org",
       "@type": "TechArticle",

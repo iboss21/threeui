@@ -3,10 +3,10 @@ import { CopyIcon } from "./icons";
 import { SyntaxHighlightedCode } from "./SyntaxHighlightedCode";
 
 export const INSTALL_COMMANDS = {
-  npm: "npm install @designcodeio/threeui",
-  pnpm: "pnpm add @designcodeio/threeui",
-  bun: "bun add @designcodeio/threeui",
-  yarn: "yarn add @designcodeio/threeui",
+  npm: "npm install @animatedwebs/ui",
+  pnpm: "pnpm add @animatedwebs/ui",
+  bun: "bun add @animatedwebs/ui",
+  yarn: "yarn add @animatedwebs/ui",
 } as const;
 
 type PackageManager = keyof typeof INSTALL_COMMANDS;
@@ -67,11 +67,11 @@ export function InstallationSteps({ importName, includeStyles = false, onNotify 
             <button
               className="icon-btn inset-shadow copy-corner"
               aria-label="Copy stylesheet import"
-              onClick={() => copyText('import "@designcodeio/threeui/style.css";').then(() => onNotify("Copied"))}
+              onClick={() => copyText('import "@animatedwebs/ui/style.css";').then(() => onNotify("Copied"))}
             >
               <CopyIcon />
             </button>
-            <pre className="code"><SyntaxHighlightedCode code={'import "@designcodeio/threeui/style.css";'} language="typescript" /></pre>
+            <pre className="code"><SyntaxHighlightedCode code={'import "@animatedwebs/ui/style.css";'} language="typescript" /></pre>
           </div>
         </div>
       ) : null}
@@ -84,11 +84,11 @@ export function InstallationSteps({ importName, includeStyles = false, onNotify 
           <button
             className="icon-btn inset-shadow copy-corner"
             aria-label="Copy renderer import"
-            onClick={() => copyText(`import { ${importName} } from "@designcodeio/threeui";`).then(() => onNotify("Copied"))}
+            onClick={() => copyText(`import { ${importName} } from "@animatedwebs/ui";`).then(() => onNotify("Copied"))}
           >
             <CopyIcon />
           </button>
-          <pre className="code"><SyntaxHighlightedCode code={`import { ${importName} } from "@designcodeio/threeui";`} language="typescript" /></pre>
+          <pre className="code"><SyntaxHighlightedCode code={`import { ${importName} } from "@animatedwebs/ui";`} language="typescript" /></pre>
         </div>
       </div>
     </div>

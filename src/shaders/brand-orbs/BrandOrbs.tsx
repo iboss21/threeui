@@ -68,7 +68,7 @@ const VARIANT_LABELS: Record<BrandOrbVariant, string> = {
   framer: "Framer",
   react: "React",
   swift: "Swift",
-  designcode: "DesignCode",
+  designcode: "AnimatedWebs",
   aura: "Aura",
   dreamcut: "DreamCut",
   ui: "UI",

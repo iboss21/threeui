@@ -172,7 +172,6 @@ export function Sidebar({ active, browseActive, installationActive, mcpActive, o
           <button className="brand-button" aria-label="Browse AnimatedWebs UI" onClick={onBrowse}>
             <BrandMark />
           </button>
-          <a href="https://animatedwebs.com" className="sb-site-link" style={{ fontSize: 12, opacity: 0.6, whiteSpace: "nowrap" }}>animatedwebs.com ↗</a>
         </div>
         <button className="search inset-shadow" onClick={onSearch}>
           <SearchIcon style={{ opacity: 0.7 }} />
@@ -206,6 +205,9 @@ export function Sidebar({ active, browseActive, installationActive, mcpActive, o
               >
                 <span>MCP</span>
               </button>
+              <a className="nav-link" href="https://animatedwebs.com">
+                <span>animatedwebs.com ↗</span>
+              </a>
             </div>
           </div>
           <SidebarCatalogSection

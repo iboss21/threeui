@@ -29,7 +29,7 @@ const MCP_TOOLS = [
   ["get_item_prompt", "Load the implementation prompt for a catalog item."],
 ] as const;
 
-const DEFAULT_MCP_ENDPOINT = "https://threeui.com/api/mcp";
+const DEFAULT_MCP_ENDPOINT = "https://mcp.animatedwebs.com/mcp";
 
 async function copyText(text: string) {
   await navigator.clipboard.writeText(text);
@@ -40,7 +40,7 @@ export function McpDocumentation({ onInstallation, onPricing }: McpDocumentation
   const endpoint = import.meta.env.VITE_MCP_ENDPOINT?.trim() || DEFAULT_MCP_ENDPOINT;
   const clientConfig = useMemo(() => JSON.stringify({
     mcpServers: {
-      threeui: {
+      animatedwebs: {
         type: "http",
         url: endpoint,
       },
