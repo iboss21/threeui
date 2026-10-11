@@ -39,7 +39,7 @@ export function GitHubStars() {
       href={GITHUB_REPOSITORY_URL}
       target="_blank"
       rel="noreferrer"
-      aria-label={`View ThreeUI on GitHub, ${stars} stars`}
+      aria-label={`View AnimatedWebs UI on GitHub, ${stars} stars`}
     >
       <GitHubIcon />
       <span>{formatStars(stars)}</span>

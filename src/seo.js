@@ -28,7 +28,7 @@ function compactText(value, maxLength) {
 }
 
 function brandedTitle(primary) {
-  const suffix = " | ThreeUI";
+  const suffix = " | AnimatedWebs UI";
   return `${compactText(primary, 62 - suffix.length)}${suffix}`;
 }
 
@@ -86,91 +86,91 @@ export function buildRouteSeo(route, origin, catalog = [], mediaOptions) {
   let structuredData;
 
   if (route.page === "installation") {
-    title = brandedTitle("Install ThreeUI for React");
+    title = brandedTitle("Install AnimatedWebs UI for React");
     description = "Install @designcodeio/threeui, add the shared styles, check peer requirements, and verify your first interactive Three.js component.";
     structuredData = {
       "@context": "https://schema.org",
       "@type": "TechArticle",
-      headline: "Install ThreeUI for React",
+      headline: "Install AnimatedWebs UI for React",
       description,
       url: absoluteUrl(origin, canonicalPath),
-      about: { "@type": "SoftwareApplication", name: "ThreeUI for React", applicationCategory: "DeveloperApplication" },
+      about: { "@type": "SoftwareApplication", name: "AnimatedWebs UI for React", applicationCategory: "DeveloperApplication" },
     };
   } else if (route.page === "mcp") {
-    title = brandedTitle("ThreeUI MCP for Pro");
-    description = "Connect the authenticated ThreeUI MCP to access every template, component, prompt, and source file with a verified Pro membership.";
+    title = brandedTitle("AnimatedWebs UI MCP for Pro");
+    description = "Connect the authenticated AnimatedWebs UI MCP to access every template, component, prompt, and source file with a verified Pro membership.";
     structuredData = {
       "@context": "https://schema.org",
       "@type": "TechArticle",
-      headline: "ThreeUI MCP for Pro",
+      headline: "AnimatedWebs UI MCP for Pro",
       description,
       url: absoluteUrl(origin, canonicalPath),
-      about: { "@type": "SoftwareApplication", name: "ThreeUI MCP", applicationCategory: "DeveloperApplication" },
+      about: { "@type": "SoftwareApplication", name: "AnimatedWebs UI MCP", applicationCategory: "DeveloperApplication" },
     };
   } else if (route.page === "pricing") {
-    title = brandedTitle("ThreeUI Pro Pricing");
-    description = "Compare ThreeUI Community, yearly Pro, and lifetime access for production-ready Three.js and WebGL components.";
+    title = brandedTitle("AnimatedWebs UI Pro Pricing");
+    description = "Compare AnimatedWebs UI, yearly Pro, and lifetime access for production-ready Three.js and WebGL components.";
     structuredData = {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      name: "ThreeUI Pro Pricing",
+      name: "AnimatedWebs UI Pro Pricing",
       description,
       url: absoluteUrl(origin, canonicalPath),
     };
   } else if (route.page === "purchaseSuccess") {
-    title = brandedTitle("ThreeUI purchase status");
-    description = "Verify a recent ThreeUI Pro purchase and activate access for the signed-in account.";
+    title = brandedTitle("AnimatedWebs UI purchase status");
+    description = "Verify a recent AnimatedWebs UI Pro purchase and activate access for the signed-in account.";
   } else if (route.page === "designcode-claim") {
     title = brandedTitle("Activate DesignCode Product Pass");
-    description = "Activate a verified complimentary year of ThreeUI Pro from DesignCode Product Pass.";
+    description = "Activate a verified complimentary year of AnimatedWebs UI Pro from DesignCode Product Pass.";
   } else if (route.page === "sponsorship") {
-    title = brandedTitle("Sponsor ThreeUI Community");
-    description = "Support open-source ThreeUI with a linked GitHub README banner, website documentation placement, or a scoped integration partnership.";
+    title = brandedTitle("Sponsor AnimatedWebs UI");
+    description = "Support open-source AnimatedWebs UI with a linked GitHub README banner, website documentation placement, or a scoped integration partnership.";
     structuredData = {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      name: "Sponsor ThreeUI Community",
+      name: "Sponsor AnimatedWebs UI",
       description,
       url: absoluteUrl(origin, canonicalPath),
     };
   } else if (route.page === "affiliates") {
     title = brandedTitle("Affiliate Program — Earn 50%");
-    description = "Join the ThreeUI affiliate program and earn 50% of eligible referred revenue for up to 12 months with a 60-day attribution window.";
+    description = "Join the AnimatedWebs UI affiliate program and earn 50% of eligible referred revenue for up to 12 months with a 60-day attribution window.";
     structuredData = {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      name: "ThreeUI Affiliate Program",
+      name: "AnimatedWebs UI Affiliate Program",
       description,
       url: absoluteUrl(origin, canonicalPath),
       about: {
         "@type": "Organization",
-        name: "ThreeUI",
+        name: "AnimatedWebs UI",
         url: absoluteUrl(origin, "/"),
       },
     };
   } else if (route.page === "privacy") {
     title = brandedTitle("Privacy Policy");
-    description = "Learn how ThreeUI handles account, checkout, analytics, and component usage data.";
+    description = "Learn how AnimatedWebs UI handles account, checkout, analytics, and component usage data.";
     structuredData = {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      name: "ThreeUI Privacy Policy",
+      name: "AnimatedWebs UI Privacy Policy",
       description,
       url: absoluteUrl(origin, canonicalPath),
     };
   } else if (route.page === "terms") {
     title = brandedTitle("Terms of Use");
-    description = "Review the ThreeUI terms for Community and Pro access, purchases, commercial use, and source distribution.";
+    description = "Review the AnimatedWebs UI terms for Community and Pro access, purchases, commercial use, and source distribution.";
     structuredData = {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      name: "ThreeUI Terms of Use",
+      name: "AnimatedWebs UI Terms of Use",
       description,
       url: absoluteUrl(origin, canonicalPath),
     };
   } else if (route.page === "oauth-consent") {
     title = brandedTitle("Authorize MCP access");
-    description = "Review and approve an MCP client's request to access your ThreeUI Pro catalog.";
+    description = "Review and approve an MCP client's request to access your AnimatedWebs UI Pro catalog.";
   } else if ((route.page === "shader" || route.page === "capture") && route.shader) {
     const { shader, variant } = route;
     const descriptor = CATEGORY_DESCRIPTORS[shader.category] ?? "Interactive Component";
@@ -193,14 +193,14 @@ export function buildRouteSeo(route, origin, catalog = [], mediaOptions) {
       runtimePlatform: shader.runtime,
       isPartOf: {
         "@type": "CollectionPage",
-        name: "ThreeUI",
+        name: "AnimatedWebs UI",
         url: absoluteUrl(origin, STATIC_ROUTE_PATHS.browse),
       },
       ...(variant ? { isBasedOn: absoluteUrl(origin, shaderRoutePath(shader)) } : {}),
     };
   } else if (route.page === "not-found") {
     title = brandedTitle("Page Not Found");
-    description = "The requested ThreeUI page could not be found. Browse the complete component collection instead.";
+    description = "The requested AnimatedWebs UI page could not be found. Browse the complete component collection instead.";
   } else {
     const browseCatalog = route.browseCategory
       ? catalog.filter((shader) => shader.category === route.browseCategory)
@@ -265,7 +265,7 @@ export function applyRouteSeo(route, catalog = []) {
   upsertMeta('meta[name="description"]', { name: "description", content: seo.description });
   upsertMeta('meta[name="robots"]', { name: "robots", content: seo.robots });
   upsertMeta('meta[property="og:type"]', { property: "og:type", content: "website" });
-  upsertMeta('meta[property="og:site_name"]', { property: "og:site_name", content: "ThreeUI" });
+  upsertMeta('meta[property="og:site_name"]', { property: "og:site_name", content: "AnimatedWebs UI" });
   upsertMeta('meta[property="og:title"]', { property: "og:title", content: seo.title });
   upsertMeta('meta[property="og:description"]', { property: "og:description", content: seo.description });
   upsertMeta('meta[property="og:url"]', { property: "og:url", content: seo.canonical });

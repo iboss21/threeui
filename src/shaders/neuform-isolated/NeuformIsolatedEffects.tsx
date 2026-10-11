@@ -769,8 +769,8 @@ function transformAudioWordmarkSource(source: string, mode: EffectMode) {
   const accent = mode === "light" ? "#315efb" : "#7080ff";
 
   return source
-    .replace("<title>Supreme Radio — Graphic Identity</title>", "<title>ThreeUI — Audio Wordmark</title>")
-    .replaceAll("supreme radio", "ThreeUI")
+    .replace("<title>Supreme Radio — Graphic Identity</title>", "<title>AnimatedWebs UI — Audio Wordmark</title>")
+    .replaceAll("supreme radio", "AnimatedWebs UI")
     .replaceAll("#EA3927", accent)
     .replaceAll("#E8EEE9", ink)
     .replaceAll("#E3EDE5", ink)
@@ -976,7 +976,7 @@ const EFFECTS = {
     targets: [{ selector: ".component-wrapper button", role: "button", preserveTransform: true }],
   },
   threeUIIntro: {
-    title: "ThreeUI chromatic wordmark intro",
+    title: "AnimatedWebs UI chromatic wordmark intro",
     source: creatorStudioIntroSource,
     background: "#000000",
     theme: {
@@ -989,7 +989,7 @@ const EFFECTS = {
     hiddenTargets: [".sr"],
     introWordmark: {
       sceneSelector: "#comp .scene:first-child",
-      text: "ThreeUI",
+      text: "AnimatedWebs UI",
       fontSize: 130,
       endTime: 1.7,
       holdTime: 1.1,
@@ -1008,7 +1008,7 @@ const EFFECTS = {
     targets: [{ selector: "#storm", role: "visual", fit: "wide-wordmark" }],
   },
   audioWordmark: {
-    title: "ThreeUI audio wordmark",
+    title: "AnimatedWebs UI audio wordmark",
     source: audioWordmarkSource,
     background: "#000000",
     theme: {

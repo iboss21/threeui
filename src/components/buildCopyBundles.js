@@ -10,7 +10,7 @@ function markdownFence(code) {
 function assetSection(assets) {
   if (assets.length === 0) return ["No binary assets are required.", ""];
   return [
-    "Binary assets cannot be represented as executable text. Copy each asset byte-for-byte from the ThreeUI package and verify its hash:",
+    "Binary assets cannot be represented as executable text. Copy each asset byte-for-byte from the AnimatedWebs UI package and verify its hash:",
     "",
     "| Path | MIME type | Bytes | SHA-256 |",
     "| --- | --- | ---: | --- |",
@@ -178,11 +178,11 @@ export function buildCopyPrompt(options) {
   const usageFence = markdownFence(normalizedUsage);
   const inlineFiles = includeInlineSource ? files.filter((file) => typeof file.code === "string") : [];
   const unavailableSourceMessage = inlineFiles.length > 0
-    ? "This is protected source supplied by the authenticated ThreeUI page in the inline bundle below."
+    ? "This is protected source supplied by the authenticated AnimatedWebs UI page in the inline bundle below."
     : "The exact source is available only at the registered local paths below. Read those files from the current repository; if they are unavailable, stop instead of recreating them.";
 
   return [
-    `# Integrate <${shader.importName} /> from ThreeUI using its exact source`,
+    `# Integrate <${shader.importName} /> from AnimatedWebs UI using its exact source`,
     "",
     "You are working in an existing application. Implement this component from the exact source linked or included below. Do not recreate it from the preview, screenshot, description, or filename.",
     "",
@@ -209,7 +209,7 @@ export function buildCopyPrompt(options) {
     "",
     `- Preserve the authored structure, styling, shaders, motion, interactions, responsive behavior, dependencies, and asset paths described by the source.`,
     `- Use the configured \`<${shader.importName} />\` usage above, including the selected variant and props.`,
-    "- Build directly in the destination project. Do not embed the ThreeUI documentation page and do not approximate the result from its rendered appearance.",
+    "- Build directly in the destination project. Do not embed the AnimatedWebs UI documentation page and do not approximate the result from its rendered appearance.",
     "- Fetch and read the complete source before editing. If the source cannot be retrieved, stop and report that instead of recreating it.",
     "- After implementation, verify the rendered result and its interactions in the browser.",
     "",

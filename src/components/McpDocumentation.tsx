@@ -63,7 +63,7 @@ export function McpDocumentation({ onInstallation, onPricing }: McpDocumentation
             <h1>MCP</h1>
             <span className="pro-tag"><LockIcon />PRO</span>
           </div>
-          <p className="lede">Bring the complete ThreeUI catalog into your AI coding client with authenticated, Pro-only access to templates, components, prompts, and source code.</p>
+          <p className="lede">Bring the complete AnimatedWebs UI catalog into your AI coding client with authenticated, Pro-only access to templates, components, prompts, and source code.</p>
           <div className="tagrow">
             <span className="tag">Streamable HTTP</span>
             <span className="tag">OAuth 2.1</span>
@@ -72,7 +72,7 @@ export function McpDocumentation({ onInstallation, onPricing }: McpDocumentation
           <div className="divider" />
 
           <section id="connect">
-            <h2>Connect ThreeUI</h2>
+            <h2>Connect AnimatedWebs UI</h2>
             <div className="mcp-connect card">
               <div className="mcp-connect-copy">
                 <span className="pricing-plan-label">MCP endpoint</span>

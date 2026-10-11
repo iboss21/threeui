@@ -253,7 +253,7 @@ function focusedDocument(definition: StudyDefinition, mode: "dark" | "light") {
     : presentedSource;
 
   return source
-    .replace(/<title>[\s\S]*?<\/title>/i, `<title>${definition.title} — ThreeUI</title>`)
+    .replace(/<title>[\s\S]*?<\/title>/i, `<title>${definition.title} — AnimatedWebs UI</title>`)
     .replace("</head>", `${focusStyles(definition, mode)}\n</head>`);
 }
 

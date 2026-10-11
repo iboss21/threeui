@@ -569,7 +569,7 @@ function OpenShaderDocumentation({ shader, activeVariantId, onPricing, onSearchT
                     </div>
                   ) : null}
                 </div>
-                <div className="doc-promos-compact" aria-label="ThreeUI promotions">
+                <div className="doc-promos-compact" aria-label="AnimatedWebs UI promotions">
                   <RightRailPromos onPricing={onPricing} />
                 </div>
               </div>

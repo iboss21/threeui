@@ -6,7 +6,7 @@ export function UpgradeLink({ compact = false }: UpgradeLinkProps) {
   return (
     <a
       className={`account-signin${compact ? " account-signin-compact" : ""}`}
-      href="https://threeui.com/pricing"
+      href="https://animatedwebs.com/pricing"
     >
       <span>Get Pro</span>
     </a>

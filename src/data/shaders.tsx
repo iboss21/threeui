@@ -163,7 +163,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Landing Pages",
     "label": "Kage",
-    "thumbnail": "https://threeui.com/thumbnails/kage-landing-page.jpg",
+    "thumbnail": "/thumbnails/kage-landing-page.jpg",
     "description": "The complete authored Kage temple experience, preserved as an interactive full-page document with its original navigation, scroll scenes, and local Three.js world.",
     "runtime": "Full HTML + DOM/CSS + Three.js",
     "origin": "Owner-supplied HTML Pages source",
@@ -391,7 +391,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Hero",
     "label": "Complete Shelf",
-    "thumbnail": "https://threeui.com/thumbnails/complete-shelf-landing-page.jpg",
+    "thumbnail": "/thumbnails/complete-shelf-landing-page.jpg",
     "description": "The complete Working Volumes bookshelf page with all seven tools, its responsive editorial interface, and authored Three.js presentation.",
     "runtime": "Full HTML + DOM/CSS + Three.js r165",
     "origin": "Owner-supplied HTML Pages source",
@@ -607,7 +607,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Hero",
     "label": "Bestsellers Book Showcase",
-    "thumbnail": "https://threeui.com/thumbnails/bestsellers-book-showcase.jpg",
+    "thumbnail": "/thumbnails/bestsellers-book-showcase.jpg",
     "description": "The complete Field Manuals book showcase, preserved unchanged with its editorial layout, authored motion, interactions, and embedded media.",
     "runtime": "Full HTML + DOM/CSS + embedded media",
     "origin": "Owner-supplied HTML Pages source",
@@ -845,7 +845,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Hero",
     "label": "Sylva",
-    "thumbnail": "https://threeui.com/thumbnails/sylva-hero.jpg",
+    "thumbnail": "/thumbnails/sylva-hero.jpg",
     "description": "The complete Sylva Living Green page, preserved with its Three.js scene, local typography, card imagery, and embedded liquid-metal buttons. The moss-root world with pale flowers, ferns, drifting pollen, the landing butterfly, and native liquid-metal controls behind the full hero layout.",
     "runtime": "Full HTML + DOM/CSS + local Three.js",
     "origin": "Owner-supplied HTML Pages source",
@@ -1061,8 +1061,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "living-green",
         "label": "Living Green",
         "description": "The moss-root world with pale flowers, ferns, drifting pollen, the landing butterfly, and native liquid-metal controls behind the full hero layout.",
-        "thumbnail": "https://threeui.com/thumbnails/sylva-hero.jpg",
-        "preview": "https://threeui.com/previews/sylva-hero.webm",
+        "thumbnail": "/thumbnails/sylva-hero.jpg",
+        "preview": "/previews/sylva-hero.webm",
         "props": {
           "variant": "living-green"
         }
@@ -1103,7 +1103,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Landing Pages",
     "label": "Sketchbook",
-    "thumbnail": "https://threeui.com/thumbnails/meng-to-sketchbook-landing-page.jpg",
+    "thumbnail": "/thumbnails/meng-to-sketchbook-landing-page.jpg",
     "description": "A tactile personal portfolio built as a Singapore sketchbook, with nine illustrated plates, curled page turns, a draggable magnifying glass, zoom controls, a botanical paper atmosphere, and an editorial index.",
     "runtime": "Full HTML + DOM/CSS + JavaScript",
     "origin": "Owner-supplied HTML Pages source",
@@ -1351,7 +1351,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Predictive Arc",
-    "thumbnail": "https://threeui.com/thumbnails/predictive-arc.jpg",
+    "thumbnail": "/thumbnails/predictive-arc.jpg",
     "description": "Eight animated arc, signal, ribbon, void, and halftone scenes collected in one Canvas 2D, raw-WebGL, and Three.js family.",
     "runtime": "Canvas 2D + Raw WebGL + Three.js r128",
     "origin": "Neuform export",
@@ -1465,16 +1465,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "predictive",
         "label": "Predictive Arc",
         "description": "The violet predictive pixel arch with a luminous animated core.",
-        "thumbnail": "https://threeui.com/thumbnails/predictive-arc.jpg",
-        "preview": "https://threeui.com/previews/predictive-arc.webm",
+        "thumbnail": "/thumbnails/predictive-arc.jpg",
+        "preview": "/previews/predictive-arc.webm",
         "props": {}
       },
       {
         "id": "data-pixel",
         "label": "Data Pixel Arc",
         "description": "An emerald pixel horizon with an organic breathing band.",
-        "thumbnail": "https://threeui.com/thumbnails/data-pixel-arc.jpg",
-        "preview": "https://threeui.com/previews/data-pixel-arc.webm",
+        "thumbnail": "/thumbnails/data-pixel-arc.jpg",
+        "preview": "/previews/data-pixel-arc.webm",
         "props": {
           "variant": "data-pixel"
         }
@@ -1483,8 +1483,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "signal-particles",
         "label": "Signal Particles",
         "description": "A dark signal-particle field with soft connective pulses.",
-        "thumbnail": "https://threeui.com/thumbnails/signal-particles.jpg",
-        "preview": "https://threeui.com/previews/signal-particles.webm",
+        "thumbnail": "/thumbnails/signal-particles.jpg",
+        "preview": "/previews/signal-particles.webm",
         "props": {
           "variant": "signal-particles"
         }
@@ -1493,8 +1493,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "override-grid",
         "label": "Override Grid",
         "description": "A block-by-block override grid with telemetry-orange accents.",
-        "thumbnail": "https://threeui.com/thumbnails/override-grid.jpg",
-        "preview": "https://threeui.com/previews/override-grid.webm",
+        "thumbnail": "/thumbnails/override-grid.jpg",
+        "preview": "/previews/override-grid.webm",
         "props": {
           "variant": "override-grid",
           "size": 48,
@@ -1505,8 +1505,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "ribbon-field",
         "label": "Ribbon Field",
         "description": "A cyan, indigo, and purple WebGL ribbon field resolved through an animated dot matrix.",
-        "thumbnail": "https://threeui.com/thumbnails/ribbon-field.jpg",
-        "preview": "https://threeui.com/previews/ribbon-field.webm",
+        "thumbnail": "/thumbnails/ribbon-field.jpg",
+        "preview": "/previews/ribbon-field.webm",
         "props": {
           "variant": "ribbon-field"
         }
@@ -1515,8 +1515,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "void-field",
         "label": "Void Field",
         "description": "A transparent raw-WebGL void field detached from its original article composition.",
-        "thumbnail": "https://threeui.com/thumbnails/void-field.jpg",
-        "preview": "https://threeui.com/previews/void-field.webm",
+        "thumbnail": "/thumbnails/void-field.jpg",
+        "preview": "/previews/void-field.webm",
         "props": {
           "variant": "void-field"
         }
@@ -1525,8 +1525,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "halftone-flow",
         "label": "Halftone Flow",
         "description": "A red-orange raw-WebGL flow field resolved through its authored six-pixel halftone matrix.",
-        "thumbnail": "https://threeui.com/thumbnails/halftone-flow.jpg",
-        "preview": "https://threeui.com/previews/halftone-flow.webm",
+        "thumbnail": "/thumbnails/halftone-flow.jpg",
+        "preview": "/previews/halftone-flow.webm",
         "props": {
           "variant": "halftone-flow"
         }
@@ -1535,8 +1535,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "amber-halftone",
         "label": "Amber Halftone",
         "description": "An animated amber-to-white Three.js point field on a dark plane.",
-        "thumbnail": "https://threeui.com/thumbnails/amber-halftone.jpg",
-        "preview": "https://threeui.com/previews/amber-halftone.webm",
+        "thumbnail": "/thumbnails/amber-halftone.jpg",
+        "preview": "/previews/amber-halftone.webm",
         "props": {
           "variant": "amber-halftone"
         }
@@ -1560,7 +1560,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Liquid Form",
-    "thumbnail": "https://threeui.com/thumbnails/liquid-form.jpg",
+    "thumbnail": "/thumbnails/liquid-form.jpg",
     "description": "A centered silver ray-marched liquid form with authored studio reflections and pointer-responsive camera drift.",
     "runtime": "Raw WebGL",
     "origin": "Neuform export",
@@ -1715,7 +1715,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "CRT",
-    "thumbnail": "https://threeui.com/thumbnails/crt.jpg",
+    "thumbnail": "/thumbnails/crt.jpg",
     "description": "One sharpened curved-glass CRT tube driving four screens: the Matrix-era boot terminal, a monochrome film leader, a noise-torn blue signal fault, and an 8-bit console title.",
     "runtime": "Raw WebGL + Canvas 2D",
     "origin": "Neuform export",
@@ -1824,8 +1824,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "terminal",
         "label": "Terminal",
         "description": "The authored 19-row Zion boot log typing itself onto green phosphor, now resolved at the full backing resolution so the glyph cores stay crisp behind the grille.",
-        "thumbnail": "https://threeui.com/thumbnails/crt.jpg",
-        "preview": "https://threeui.com/previews/crt.webm",
+        "thumbnail": "/thumbnails/crt.jpg",
+        "preview": "/previews/crt.webm",
         "props": {
           "variant": "terminal"
         },
@@ -1899,8 +1899,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "cinematic",
         "label": "Cinematic",
         "description": "A monotone academy leader: letterboxed frame, sweeping countdown dial, scrolling film perforations, registration marks, and a running 24 fps timecode graded to pure luminance.",
-        "thumbnail": "https://threeui.com/thumbnails/crt-cinematic.jpg",
-        "preview": "https://threeui.com/previews/crt-cinematic.webm",
+        "thumbnail": "/thumbnails/crt-cinematic.jpg",
+        "preview": "/previews/crt-cinematic.webm",
         "props": {
           "variant": "cinematic"
         },
@@ -1965,8 +1965,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "blue-screen",
         "label": "Blue Screen",
         "description": "A retro signal-fault panel on saturated broadcast blue, torn by shader-side transport noise: per-row jitter, a rolling dropout band, head-switching scramble, and heavy static.",
-        "thumbnail": "https://threeui.com/thumbnails/crt-blue-screen.jpg",
-        "preview": "https://threeui.com/previews/crt-blue-screen.webm",
+        "thumbnail": "/thumbnails/crt-blue-screen.jpg",
+        "preview": "/previews/crt-blue-screen.webm",
         "props": {
           "variant": "blue-screen"
         },
@@ -2031,8 +2031,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "nintendo",
         "label": "Nintendo",
         "description": "An 8-bit console title screen drawn on a 320×180 grid with a hand-authored 5×7 pixel font and nearest-neighbour upscale, so every sprite, brick, and letter lands on a hard pixel edge.",
-        "thumbnail": "https://threeui.com/thumbnails/crt-nintendo.jpg",
-        "preview": "https://threeui.com/previews/crt-nintendo.webm",
+        "thumbnail": "/thumbnails/crt-nintendo.jpg",
+        "preview": "/previews/crt-nintendo.webm",
         "props": {
           "variant": "nintendo"
         },
@@ -2130,7 +2130,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Globe",
-    "thumbnail": "https://threeui.com/thumbnails/energy-orb.jpg",
+    "thumbnail": "/thumbnails/energy-orb.jpg",
     "description": "The original layered FBM energy sphere with translucent rim glow and depth-aware star field.",
     "runtime": "Raw WebGL + Canvas 2D",
     "origin": "HTML Pages + Neuform export",
@@ -2290,8 +2290,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "energy-orb",
         "label": "Energy Orb",
         "description": "The original layered FBM energy sphere with translucent rim glow and depth-aware star field.",
-        "thumbnail": "https://threeui.com/thumbnails/energy-orb.jpg",
-        "preview": "https://threeui.com/previews/energy-orb.webm",
+        "thumbnail": "/thumbnails/energy-orb.jpg",
+        "preview": "/previews/energy-orb.webm",
         "props": {
           "variant": "energy-orb"
         },
@@ -2433,7 +2433,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Spark Badge",
-    "thumbnail": "https://threeui.com/thumbnails/spark-badge.jpg",
+    "thumbnail": "/thumbnails/spark-badge.jpg",
     "description": "A luminous credential badge held together by curl-noise embers, carved typography, rain occlusion, waterline sparks, and an adaptive particle field.",
     "runtime": "Canvas 2D",
     "origin": "HTML Pages",
@@ -2532,8 +2532,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "badge",
         "label": "Badge",
         "description": "The original Codex credential assembled from luminous rain and curl-noise embers.",
-        "thumbnail": "https://threeui.com/thumbnails/spark-badge.jpg",
-        "preview": "https://threeui.com/previews/spark-badge.webm",
+        "thumbnail": "/thumbnails/spark-badge.jpg",
+        "preview": "/previews/spark-badge.webm",
         "props": {}
       }
     ]
@@ -2555,7 +2555,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Stream Convergence",
-    "thumbnail": "https://threeui.com/thumbnails/stream-convergence.jpg",
+    "thumbnail": "/thumbnails/stream-convergence.jpg",
     "description": "Three chromatically separated violet wavefronts crossing a rotated fluid field with the exact authored vignette.",
     "runtime": "Raw WebGL",
     "origin": "Neuform export",
@@ -2673,7 +2673,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Bell Field",
-    "thumbnail": "https://threeui.com/thumbnails/bell-field.jpg",
+    "thumbnail": "/thumbnails/bell-field.jpg",
     "description": "A Chladni-inspired bell-mode field with authored nodal metal patterns, automatic strike rings, pointer drift, and rising foundry embers.",
     "runtime": "Raw WebGL + Canvas 2D",
     "origin": "Neuform export",
@@ -2801,7 +2801,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Flow Field",
-    "thumbnail": "https://threeui.com/thumbnails/flow-field.jpg",
+    "thumbnail": "/thumbnails/flow-field.jpg",
     "description": "A warm Canvas 2D flow field with 2,500 simplex-driven amber, gold, and coral particle trails plus pointer repulsion.",
     "runtime": "Canvas 2D",
     "origin": "HTML Pages",
@@ -2971,7 +2971,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Elements",
-    "thumbnail": "https://threeui.com/thumbnails/elements.jpg",
+    "thumbnail": "/thumbnails/elements.jpg",
     "description": "Water, lightning, fire, condensation, and a painterly generative tree collected as one elemental family across WebGL2 and Canvas 2D.",
     "runtime": "Raw WebGL2 + Canvas 2D",
     "origin": "Elemental Marks + HTML Pages + Neuform export",
@@ -3084,8 +3084,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "elemental-water",
         "label": "Water",
         "description": "A refracted OpenAI mark beneath pointer-driven circular ripples, cyan depth, and soft suspended particles.",
-        "thumbnail": "https://threeui.com/thumbnails/elemental-water.jpg",
-        "preview": "https://threeui.com/previews/elemental-water.webm",
+        "thumbnail": "/thumbnails/elemental-water.jpg",
+        "preview": "/previews/elemental-water.webm",
         "props": {
           "variant": "water"
         }
@@ -3094,8 +3094,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "elemental-lightning",
         "label": "Lightning",
         "description": "Violet fBm arcs crawl around the Anthropic contour while pointer proximity pulls the storm closer.",
-        "thumbnail": "https://threeui.com/thumbnails/elemental-lightning.jpg",
-        "preview": "https://threeui.com/previews/elemental-lightning.webm",
+        "thumbnail": "/thumbnails/elemental-lightning.jpg",
+        "preview": "/previews/elemental-lightning.webm",
         "props": {
           "variant": "lightning"
         }
@@ -3104,8 +3104,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "elemental-flame",
         "label": "Fire",
         "description": "Noise-driven flame ribbons and rising embers lick upward from the Claude mark edge.",
-        "thumbnail": "https://threeui.com/thumbnails/elemental-flame.jpg",
-        "preview": "https://threeui.com/previews/elemental-flame.webm",
+        "thumbnail": "/thumbnails/elemental-flame.jpg",
+        "preview": "/previews/elemental-flame.webm",
         "props": {
           "variant": "fire"
         }
@@ -3114,8 +3114,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "condensation",
         "label": "Condensation",
         "description": "Transparent droplets grow, merge, fall, and resolve into soft water splash rings.",
-        "thumbnail": "https://threeui.com/thumbnails/condensation.jpg",
-        "preview": "https://threeui.com/previews/condensation.webm",
+        "thumbnail": "/thumbnails/condensation.jpg",
+        "preview": "/previews/condensation.webm",
         "props": {
           "variant": "condensation"
         },
@@ -3153,8 +3153,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "generative-tree",
         "label": "Generative Tree",
         "description": "A painterly branching tree grows from warm sienna to golden tips, sways with pointer wind, and sheds soft ambient motes.",
-        "thumbnail": "https://threeui.com/thumbnails/generative-tree.jpg",
-        "preview": "https://threeui.com/previews/generative-tree.webm",
+        "thumbnail": "/thumbnails/generative-tree.jpg",
+        "preview": "/previews/generative-tree.webm",
         "props": {
           "variant": "generative-tree"
         },
@@ -3250,7 +3250,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Water Element",
-    "thumbnail": "https://threeui.com/thumbnails/elemental-water.jpg",
+    "thumbnail": "/thumbnails/elemental-water.jpg",
     "description": "A refracted OpenAI mark beneath pointer-driven circular ripples, cyan depth, and soft suspended particles.",
     "runtime": "Raw WebGL2",
     "origin": "Elemental Marks",
@@ -3371,7 +3371,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Lightning Element",
-    "thumbnail": "https://threeui.com/thumbnails/elemental-lightning.jpg",
+    "thumbnail": "/thumbnails/elemental-lightning.jpg",
     "description": "Violet fBm arcs crawl around the Anthropic contour while pointer proximity pulls the storm closer.",
     "runtime": "Raw WebGL2",
     "origin": "Elemental Marks",
@@ -3491,7 +3491,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Fire Element",
-    "thumbnail": "https://threeui.com/thumbnails/elemental-flame.jpg",
+    "thumbnail": "/thumbnails/elemental-flame.jpg",
     "description": "Noise-driven flame ribbons and rising embers lick upward from the Claude mark edge.",
     "runtime": "Raw WebGL2",
     "origin": "Elemental Marks",
@@ -3611,7 +3611,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Condensation",
-    "thumbnail": "https://threeui.com/thumbnails/condensation.jpg",
+    "thumbnail": "/thumbnails/condensation.jpg",
     "description": "A transparent field of growing condensation bubbles that merge, fall, and resolve into soft water splash rings.",
     "runtime": "Canvas 2D",
     "origin": "Neuform export",
@@ -3704,7 +3704,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Generative Tree",
-    "thumbnail": "https://threeui.com/thumbnails/generative-tree.jpg",
+    "thumbnail": "/thumbnails/generative-tree.jpg",
     "description": "A painterly branching tree grows from warm sienna to golden tips, sways with pointer wind, and sheds soft ambient motes.",
     "runtime": "Canvas 2D",
     "origin": "HTML Pages",
@@ -3825,7 +3825,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Ribbon Field",
-    "thumbnail": "https://threeui.com/thumbnails/ribbon-field.jpg",
+    "thumbnail": "/thumbnails/ribbon-field.jpg",
     "description": "An exact cyan, indigo, and purple WebGL ribbon field resolved through an animated seven-pixel dot matrix.",
     "runtime": "Raw WebGL",
     "origin": "Neuform export",
@@ -3942,7 +3942,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Typography Vortex",
-    "thumbnail": "https://threeui.com/thumbnails/typography-vortex.jpg",
+    "thumbnail": "/thumbnails/typography-vortex.jpg",
     "description": "Sable’s complete rotating typography vortex with crisp prerendered rings, drifting glyphs, pointer dissolution, particle dust, and click suction — with dark and light surfaces.",
     "runtime": "Canvas 2D",
     "origin": "Sable V1",
@@ -4088,7 +4088,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Semantic Bloom",
-    "thumbnail": "https://threeui.com/thumbnails/semantic-bloom.jpg",
+    "thumbnail": "/thumbnails/semantic-bloom.jpg",
     "description": "A customizable Codex wordmark that draws a viscous particle organism toward its letters, illuminating the text as the network searches and reconnects.",
     "runtime": "Canvas 2D + DOM/CSS",
     "origin": "Owner-selected HTML",
@@ -4212,7 +4212,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Text Path Studies",
-    "thumbnail": "https://threeui.com/thumbnails/globe-study.jpg",
+    "thumbnail": "/thumbnails/globe-study.jpg",
     "description": "Six interactive Canvas 2D typography studies spanning a globe, flowing outlines, morphing glyphs, cloth physics, ripples, and a particle sphere.",
     "runtime": "Canvas 2D",
     "origin": "Text on a Path collection",
@@ -4327,16 +4327,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "globe-study",
         "label": "Globe Type Study",
         "description": "A typographic world sphere with drag rotation, wheel zoom, pointer lighting, and click-to-pin markers.",
-        "thumbnail": "https://threeui.com/thumbnails/globe-study.jpg",
-        "preview": "https://threeui.com/previews/globe-study.webm",
+        "thumbnail": "/thumbnails/globe-study.jpg",
+        "preview": "/previews/globe-study.webm",
         "props": {}
       },
       {
         "id": "outline-typeflow",
         "label": "Outline Typeflow",
         "description": "Letters trace a multi-loop outline with hover acceleration, illumination, and click-burst particles.",
-        "thumbnail": "https://threeui.com/thumbnails/outline-typeflow.jpg",
-        "preview": "https://threeui.com/previews/outline-typeflow.webm",
+        "thumbnail": "/thumbnails/outline-typeflow.jpg",
+        "preview": "/previews/outline-typeflow.webm",
         "props": {
           "variant": "outline-typeflow"
         }
@@ -4345,8 +4345,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "morphing-glyph-cloud",
         "label": "Morphing Glyph Cloud",
         "description": "A paired glyph field morphs between radial silhouettes with breathing motion, scatter, and pointer repulsion.",
-        "thumbnail": "https://threeui.com/thumbnails/morphing-glyph-cloud.jpg",
-        "preview": "https://threeui.com/previews/morphing-glyph-cloud.webm",
+        "thumbnail": "/thumbnails/morphing-glyph-cloud.jpg",
+        "preview": "/previews/morphing-glyph-cloud.webm",
         "props": {
           "variant": "morphing-glyph-cloud"
         }
@@ -4355,8 +4355,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "cloth-study",
         "label": "Cloth",
         "description": "A Verlet sheet of letters responds to pointer wind and direct grabbing while its live weave deforms every glyph.",
-        "thumbnail": "https://threeui.com/thumbnails/cloth-study.jpg",
-        "preview": "https://threeui.com/previews/cloth-study.webm",
+        "thumbnail": "/thumbnails/cloth-study.jpg",
+        "preview": "/previews/cloth-study.webm",
         "props": {
           "variant": "cloth-study"
         }
@@ -4365,8 +4365,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "ripple-study",
         "label": "Ripple",
         "description": "Clicks send overlapping weighted wavefronts through a seeded 24 × 24 typographic grid.",
-        "thumbnail": "https://threeui.com/thumbnails/ripple-study.jpg",
-        "preview": "https://threeui.com/previews/ripple-study.webm",
+        "thumbnail": "/thumbnails/ripple-study.jpg",
+        "preview": "/previews/ripple-study.webm",
         "props": {
           "variant": "ripple-study"
         }
@@ -4375,8 +4375,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "ball-study",
         "label": "Ball",
         "description": "A depth-sorted glyph sphere accelerates on hover and sheds click-hit letters before regrowing its surface.",
-        "thumbnail": "https://threeui.com/thumbnails/ball-study.jpg",
-        "preview": "https://threeui.com/previews/ball-study.webm",
+        "thumbnail": "/thumbnails/ball-study.jpg",
+        "preview": "/previews/ball-study.webm",
         "props": {
           "variant": "ball-study"
         }
@@ -4401,7 +4401,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Outline Typeflow",
-    "thumbnail": "https://threeui.com/thumbnails/outline-typeflow.jpg",
+    "thumbnail": "/thumbnails/outline-typeflow.jpg",
     "description": "A continuous ring of letters traces a multi-loop symbol outline, accelerating under the pointer and bursting outward on click.",
     "runtime": "Canvas 2D",
     "origin": "Text on a Path II",
@@ -4528,7 +4528,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Morphing Glyph Cloud",
-    "thumbnail": "https://threeui.com/thumbnails/morphing-glyph-cloud.jpg",
+    "thumbnail": "/thumbnails/morphing-glyph-cloud.jpg",
     "description": "A paired field of alphanumeric glyphs morphs between two radial symbol silhouettes with a lifted mid-turn scatter and pointer repulsion.",
     "runtime": "Canvas 2D",
     "origin": "Text on a Path II",
@@ -4657,7 +4657,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Cloth",
-    "thumbnail": "https://threeui.com/thumbnails/cloth-study.jpg",
+    "thumbnail": "/thumbnails/cloth-study.jpg",
     "description": "A Verlet sheet of letters hangs from six pegs, shearing every glyph with the live weave while pointer wind and direct grabbing deform the cloth.",
     "runtime": "Canvas 2D",
     "origin": "Text on a Path II",
@@ -4785,7 +4785,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Ripple",
-    "thumbnail": "https://threeui.com/thumbnails/ripple-study.jpg",
+    "thumbnail": "/thumbnails/ripple-study.jpg",
     "description": "A full-frame 24 × 24 glyph field where clicks send weighted typographic wavefronts through the seeded character grid on synchronized light and dark surfaces.",
     "runtime": "Canvas 2D",
     "origin": "Text on a Path",
@@ -4920,7 +4920,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Ball",
-    "thumbnail": "https://threeui.com/thumbnails/ball-study.jpg",
+    "thumbnail": "/thumbnails/ball-study.jpg",
     "description": "A full-frame sphere of 1,900 depth-sorted glyphs with hover acceleration and click-hit letters that break loose, fall, and regrow on synchronized light and dark surfaces.",
     "runtime": "Canvas 2D",
     "origin": "Text on a Path",
@@ -5051,8 +5051,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Intro Text",
-    "thumbnail": "https://threeui.com/thumbnails/threeui-intro.jpg",
-    "description": "The opening chromatic wordmark assembly, reduced to its first beat and rebranded with the ThreeUI wave mark and name.",
+    "thumbnail": "/thumbnails/threeui-intro.jpg",
+    "description": "The opening chromatic wordmark assembly, reduced to its first beat and rebranded with the AnimatedWebs UI wave mark and name.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
     "sourceCommit": "SHA-256 e14795f24ea8",
@@ -5062,7 +5062,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "passes": "1 DOM/CSS chromatic wordmark assembly",
     "interaction": "The authored opening beat loops with a short final hold + synchronized light/dark mode and optional final-frame palette",
-    "asset": "ThreeUI wave mark is supplied by the package host",
+    "asset": "AnimatedWebs UI wave mark is supplied by the package host",
     "assetCount": 0,
     "importName": "ThreeUIIntro",
     "contract": [
@@ -5155,7 +5155,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Particle Wordmark",
-    "thumbnail": "https://threeui.com/thumbnails/particle-wordmark.jpg",
+    "thumbnail": "/thumbnails/particle-wordmark.jpg",
     "description": "The Shaders wordmark materializes through a seeded field of drifting dots and squares, isolated from the source footer and synchronized across light and dark surfaces.",
     "runtime": "Canvas 2D",
     "origin": "Owner-selected HTML",
@@ -5261,8 +5261,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Audio Wordmark",
-    "thumbnail": "https://threeui.com/thumbnails/audio-wordmark.jpg",
-    "description": "A portrait audio identity scene pairing two animated circular bar fields with a compact ThreeUI wordmark and icon lockup in synchronized light and dark modes.",
+    "thumbnail": "/thumbnails/audio-wordmark.jpg",
+    "description": "A portrait audio identity scene pairing two animated circular bar fields with a compact AnimatedWebs UI wordmark and icon lockup in synchronized light and dark modes.",
     "runtime": "Canvas 2D + DOM/CSS",
     "origin": "Owner-selected HTML",
     "sourceCommit": "SHA-256 26f0d8d04494",
@@ -5370,7 +5370,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Gallery Heading",
-    "thumbnail": "https://threeui.com/thumbnails/gallery-heading.jpg",
+    "thumbnail": "/thumbnails/gallery-heading.jpg",
     "description": "An oversized headline ringed by twelve 4:3 plates — one flat colour each, shaded by a procedural noise field rather than a gradient — that hold still until the pointer arrives, then orbit. Four galleries, each with its own field, typography, and direction.",
     "runtime": "Canvas 2D",
     "origin": "Owner-selected HTML",
@@ -5540,8 +5540,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "rising-diagonal",
         "label": "Matte Rise",
         "description": "Muted museum plates under one slow rise of noise, a light sans on wide tracking, and an ascending ring that springs up to speed instead of easing.",
-        "thumbnail": "https://threeui.com/thumbnails/gallery-heading.jpg",
-        "preview": "https://threeui.com/previews/gallery-heading.webm",
+        "thumbnail": "/thumbnails/gallery-heading.jpg",
+        "preview": "/previews/gallery-heading.webm",
         "props": {
           "variant": "rising-diagonal"
         },
@@ -5644,8 +5644,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "falling-diagonal",
         "label": "Glitch Fall",
         "description": "Broadcast colour torn into flat blocks and slipped rows, with the headline breaking up into two channels over a descending counter-orbit.",
-        "thumbnail": "https://threeui.com/thumbnails/gallery-heading-falling-diagonal.jpg",
-        "preview": "https://threeui.com/previews/gallery-heading-falling-diagonal.webm",
+        "thumbnail": "/thumbnails/gallery-heading-falling-diagonal.jpg",
+        "preview": "/previews/gallery-heading-falling-diagonal.webm",
         "props": {
           "variant": "falling-diagonal"
         },
@@ -5748,8 +5748,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "horizontal-sweep",
         "label": "Riso Sweep",
         "description": "Print colour dithered to three tones over a lit corner, scanlines and heavy grain, under an old-style serif standing on a hard offset plate.",
-        "thumbnail": "https://threeui.com/thumbnails/gallery-heading-horizontal-sweep.jpg",
-        "preview": "https://threeui.com/previews/gallery-heading-horizontal-sweep.webm",
+        "thumbnail": "/thumbnails/gallery-heading-horizontal-sweep.jpg",
+        "preview": "/previews/gallery-heading-horizontal-sweep.webm",
         "props": {
           "variant": "horizontal-sweep"
         },
@@ -5852,8 +5852,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "vertical-loop",
         "label": "Halftone Loop",
         "description": "One ink on one stock, shaded only by the size of the dots on a rotated screen, under a high-contrast didone on a tall reverse loop.",
-        "thumbnail": "https://threeui.com/thumbnails/gallery-heading-vertical-loop.jpg",
-        "preview": "https://threeui.com/previews/gallery-heading-vertical-loop.webm",
+        "thumbnail": "/thumbnails/gallery-heading-vertical-loop.jpg",
+        "preview": "/previews/gallery-heading-vertical-loop.webm",
         "props": {
           "variant": "vertical-loop"
         },
@@ -5982,7 +5982,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Shader Buttons",
-    "thumbnail": "https://threeui.com/thumbnails/star-portal.jpg",
+    "thumbnail": "/thumbnails/star-portal.jpg",
     "description": "Six authored shader and canvas button treatments collected into one interactive family.",
     "runtime": "Raw WebGL + Canvas 2D + CSS",
     "origin": "Neuform + owner-selected HTML",
@@ -6084,16 +6084,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "star-portal",
         "label": "Star Portal",
         "description": "Two drifting Canvas 2D star fields with an authored holographic pill button.",
-        "thumbnail": "https://threeui.com/thumbnails/star-portal.jpg",
-        "preview": "https://threeui.com/previews/star-portal.webm",
+        "thumbnail": "/thumbnails/star-portal.jpg",
+        "preview": "/previews/star-portal.webm",
         "props": {}
       },
       {
         "id": "ignition-button",
         "label": "Ignition",
         "description": "A raw-WebGL ambient field with a tactile ignition control.",
-        "thumbnail": "https://threeui.com/thumbnails/ignition-button.jpg",
-        "preview": "https://threeui.com/previews/ignition-button.webm",
+        "thumbnail": "/thumbnails/ignition-button.jpg",
+        "preview": "/previews/ignition-button.webm",
         "props": {
           "variant": "ignition-button"
         }
@@ -6102,8 +6102,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "induction-button",
         "label": "Induction",
         "description": "A kinetic ambient field paired with a raw-WebGL induction button.",
-        "thumbnail": "https://threeui.com/thumbnails/induction-button.jpg",
-        "preview": "https://threeui.com/previews/induction-button.webm",
+        "thumbnail": "/thumbnails/induction-button.jpg",
+        "preview": "/previews/induction-button.webm",
         "props": {
           "variant": "induction-button"
         }
@@ -6112,8 +6112,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "plasma-button",
         "label": "Plasma",
         "description": "A deep-blue laboratory field with a luminous plasma control.",
-        "thumbnail": "https://threeui.com/thumbnails/plasma-button.jpg",
-        "preview": "https://threeui.com/previews/plasma-button.webm",
+        "thumbnail": "/thumbnails/plasma-button.jpg",
+        "preview": "/previews/plasma-button.webm",
         "props": {
           "variant": "plasma-button"
         }
@@ -6122,8 +6122,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "tactile-button",
         "label": "Tactile",
         "description": "A fluid ambient background with a tactile raw-WebGL button.",
-        "thumbnail": "https://threeui.com/thumbnails/tactile-button.jpg",
-        "preview": "https://threeui.com/previews/tactile-button.webm",
+        "thumbnail": "/thumbnails/tactile-button.jpg",
+        "preview": "/previews/tactile-button.webm",
         "props": {
           "variant": "tactile-button"
         }
@@ -6132,8 +6132,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "thinking-button",
         "label": "Thinking",
         "description": "A luminous Canvas 2D trace orbiting a softly raised blue button.",
-        "thumbnail": "https://threeui.com/thumbnails/thinking-button.jpg",
-        "preview": "https://threeui.com/previews/thinking-button.webm",
+        "thumbnail": "/thumbnails/thinking-button.jpg",
+        "preview": "/previews/thinking-button.webm",
         "props": {
           "variant": "thinking-button"
         }
@@ -6157,7 +6157,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Ignition Button",
-    "thumbnail": "https://threeui.com/thumbnails/ignition-button.jpg",
+    "thumbnail": "/thumbnails/ignition-button.jpg",
     "description": "The exact raw-WebGL ambient field and tactile ignition button, without the surrounding terminal page.",
     "runtime": "Raw WebGL + CSS",
     "origin": "Neuform export",
@@ -6261,7 +6261,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Induction Button",
-    "thumbnail": "https://threeui.com/thumbnails/induction-button.jpg",
+    "thumbnail": "/thumbnails/induction-button.jpg",
     "description": "The exact kinetic induction background and raw-WebGL button isolated as one interactive effect.",
     "runtime": "Raw WebGL + Canvas 2D",
     "origin": "Neuform export",
@@ -6365,7 +6365,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Plasma Button",
-    "thumbnail": "https://threeui.com/thumbnails/plasma-button.jpg",
+    "thumbnail": "/thumbnails/plasma-button.jpg",
     "description": "The exact deep-blue laboratory field and luminous plasma button with its complete authored shader pair.",
     "runtime": "Raw WebGL",
     "origin": "Neuform export",
@@ -6469,7 +6469,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Tactile Button",
-    "thumbnail": "https://threeui.com/thumbnails/tactile-button.jpg",
+    "thumbnail": "/thumbnails/tactile-button.jpg",
     "description": "The exact fluidic ambient background and tactile raw-WebGL button, isolated from page content.",
     "runtime": "Raw WebGL + Canvas 2D",
     "origin": "Neuform export",
@@ -6574,7 +6574,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Thinking Button",
-    "thumbnail": "https://threeui.com/thumbnails/thinking-button.jpg",
+    "thumbnail": "/thumbnails/thinking-button.jpg",
     "description": "A Canvas 2D thinking state with a luminous blue trace orbiting a softly raised blue button.",
     "runtime": "Canvas 2D",
     "origin": "Owner-selected HTML",
@@ -6678,7 +6678,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Sliding Text CTA",
-    "thumbnail": "https://threeui.com/thumbnails/sliding-text-cta.jpg",
+    "thumbnail": "/thumbnails/sliding-text-cta.jpg",
     "description": "A dark pill CTA whose label slides, blurs, and resolves into a crisp duplicate on hover.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
@@ -6782,7 +6782,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Floating Dots CTA",
-    "thumbnail": "https://threeui.com/thumbnails/floating-dots-cta.jpg",
+    "thumbnail": "/thumbnails/floating-dots-cta.jpg",
     "description": "A saturated blue CTA with a glass highlight and a continuous stream of floating light points.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
@@ -6885,7 +6885,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Launch Button",
-    "thumbnail": "https://threeui.com/thumbnails/launch-button.jpg",
+    "thumbnail": "/thumbnails/launch-button.jpg",
     "description": "A warm amber launch control with tactile depth, a soft aura, and a compact lightning icon.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
@@ -6988,7 +6988,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Dot Border Button",
-    "thumbnail": "https://threeui.com/thumbnails/dot-border-button.jpg",
+    "thumbnail": "/thumbnails/dot-border-button.jpg",
     "description": "A bright creation CTA framed by four corner dots and sequentially drawn dashed border segments.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
@@ -7092,7 +7092,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Gradient CTA",
-    "thumbnail": "https://threeui.com/thumbnails/gradient-cta.jpg",
+    "thumbnail": "/thumbnails/gradient-cta.jpg",
     "description": "A sunlit amber pill CTA with inset highlights, deep elevation, and a rising hover sheen.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
@@ -7196,7 +7196,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Spinning Border Button",
-    "thumbnail": "https://threeui.com/thumbnails/spinning-border-button.jpg",
+    "thumbnail": "/thumbnails/spinning-border-button.jpg",
     "description": "A compact graphite CTA that replaces its static edge with a rotating white border beam on hover.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
@@ -7300,7 +7300,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Glassmorphism CTA",
-    "thumbnail": "https://threeui.com/thumbnails/glassmorphism-cta.jpg",
+    "thumbnail": "/thumbnails/glassmorphism-cta.jpg",
     "description": "A glass pill CTA with a revolving highlight, advisor portrait, and a glowing generative-action icon.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
@@ -7404,7 +7404,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Generate Button",
-    "thumbnail": "https://threeui.com/thumbnails/generate-button.jpg",
+    "thumbnail": "/thumbnails/generate-button.jpg",
     "description": "A glossy generate control with prismatic borders, animated lettering, and an illuminated sparkle icon.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
@@ -7507,7 +7507,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Gradient Pill Button",
-    "thumbnail": "https://threeui.com/thumbnails/gradient-pill-button.jpg",
+    "thumbnail": "/thumbnails/gradient-pill-button.jpg",
     "description": "A restrained metallic lesson pill with a masked gradient edge, soft elevation, and arrow icon.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
@@ -7611,7 +7611,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Gradient Beam CTA",
-    "thumbnail": "https://threeui.com/thumbnails/gradient-beam-cta.jpg",
+    "thumbnail": "/thumbnails/gradient-beam-cta.jpg",
     "description": "A dark builder CTA with a rotating orange edge beam, drifting dot texture, and responsive glow.",
     "runtime": "DOM + CSS",
     "origin": "Owner-selected HTML",
@@ -7738,7 +7738,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Rectangle Buttons",
-    "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons.jpg",
+    "thumbnail": "/thumbnails/rectangle-buttons.jpg",
     "description": "Twenty-two authored rectangle-button and animated CTA treatments collected into one family.",
     "runtime": "DOM + CSS",
     "origin": "HTML Pages",
@@ -7856,16 +7856,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "dark-pill",
         "label": "Dark Glass",
         "description": "A deep charcoal glass rectangle with a softly revolving inner highlight and restrained metallic type.",
-        "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons.jpg",
-        "preview": "https://threeui.com/previews/rectangle-buttons.webm",
+        "thumbnail": "/thumbnails/rectangle-buttons.jpg",
+        "preview": "/previews/rectangle-buttons.webm",
         "props": {}
       },
       {
         "id": "launch-button",
         "label": "Launch Button",
         "description": "A warm amber launch control with tactile depth, a soft aura, and a compact lightning icon.",
-        "thumbnail": "https://threeui.com/thumbnails/launch-button.jpg",
-        "preview": "https://threeui.com/previews/launch-button.webm",
+        "thumbnail": "/thumbnails/launch-button.jpg",
+        "preview": "/previews/launch-button.webm",
         "props": {
           "variant": "launch-button"
         }
@@ -7874,8 +7874,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "dot-border-button",
         "label": "Dot Border Button",
         "description": "A bright creation CTA framed by four corner dots and sequentially drawn dashed border segments.",
-        "thumbnail": "https://threeui.com/thumbnails/dot-border-button.jpg",
-        "preview": "https://threeui.com/previews/dot-border-button.webm",
+        "thumbnail": "/thumbnails/dot-border-button.jpg",
+        "preview": "/previews/dot-border-button.webm",
         "props": {
           "variant": "dot-border-button"
         }
@@ -7884,8 +7884,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "floating-dots-cta",
         "label": "Floating Dots CTA",
         "description": "A saturated blue CTA with a glass highlight and a continuous stream of floating light points.",
-        "thumbnail": "https://threeui.com/thumbnails/floating-dots-cta.jpg",
-        "preview": "https://threeui.com/previews/floating-dots-cta.webm",
+        "thumbnail": "/thumbnails/floating-dots-cta.jpg",
+        "preview": "/previews/floating-dots-cta.webm",
         "props": {
           "variant": "floating-dots-cta"
         }
@@ -7894,8 +7894,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "sliding-text-cta",
         "label": "Sliding Text CTA",
         "description": "A dark rectangle CTA whose label slides, blurs, and resolves into a crisp duplicate on hover.",
-        "thumbnail": "https://threeui.com/thumbnails/sliding-text-cta.jpg",
-        "preview": "https://threeui.com/previews/sliding-text-cta.webm",
+        "thumbnail": "/thumbnails/sliding-text-cta.jpg",
+        "preview": "/previews/sliding-text-cta.webm",
         "props": {
           "variant": "sliding-text-cta"
         }
@@ -7904,8 +7904,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "gradient-beam-cta",
         "label": "Gradient Beam CTA",
         "description": "A dark builder CTA with a rotating orange edge beam, drifting dot texture, and responsive glow.",
-        "thumbnail": "https://threeui.com/thumbnails/gradient-beam-cta.jpg",
-        "preview": "https://threeui.com/previews/gradient-beam-cta.webm",
+        "thumbnail": "/thumbnails/gradient-beam-cta.jpg",
+        "preview": "/previews/gradient-beam-cta.webm",
         "props": {
           "variant": "gradient-beam-cta"
         }
@@ -7914,8 +7914,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "gradient-pill-button",
         "label": "Gradient Pill Button",
         "description": "A restrained metallic lesson control with a masked gradient edge, soft elevation, and arrow icon.",
-        "thumbnail": "https://threeui.com/thumbnails/gradient-pill-button.jpg",
-        "preview": "https://threeui.com/previews/gradient-pill-button.webm",
+        "thumbnail": "/thumbnails/gradient-pill-button.jpg",
+        "preview": "/previews/gradient-pill-button.webm",
         "props": {
           "variant": "gradient-pill-button"
         }
@@ -7924,8 +7924,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "generate-button",
         "label": "Generate Button",
         "description": "A glossy generate control with prismatic borders, animated lettering, and an illuminated sparkle icon.",
-        "thumbnail": "https://threeui.com/thumbnails/generate-button.jpg",
-        "preview": "https://threeui.com/previews/generate-button.webm",
+        "thumbnail": "/thumbnails/generate-button.jpg",
+        "preview": "/previews/generate-button.webm",
         "props": {
           "variant": "generate-button"
         }
@@ -7934,8 +7934,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "glassmorphism-cta",
         "label": "Glassmorphism CTA",
         "description": "A glass CTA with a revolving highlight, advisor portrait, and a glowing generative-action icon.",
-        "thumbnail": "https://threeui.com/thumbnails/glassmorphism-cta.jpg",
-        "preview": "https://threeui.com/previews/glassmorphism-cta.webm",
+        "thumbnail": "/thumbnails/glassmorphism-cta.jpg",
+        "preview": "/previews/glassmorphism-cta.webm",
         "props": {
           "variant": "glassmorphism-cta"
         }
@@ -7944,8 +7944,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "spinning-border-button",
         "label": "Spinning Border Button",
         "description": "A compact graphite CTA that replaces its static edge with a rotating white border beam on hover.",
-        "thumbnail": "https://threeui.com/thumbnails/spinning-border-button.jpg",
-        "preview": "https://threeui.com/previews/spinning-border-button.webm",
+        "thumbnail": "/thumbnails/spinning-border-button.jpg",
+        "preview": "/previews/spinning-border-button.webm",
         "props": {
           "variant": "spinning-border-button"
         }
@@ -7954,8 +7954,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "gradient-cta",
         "label": "Gradient CTA",
         "description": "A sunlit amber CTA with inset highlights, deep elevation, and a rising hover sheen.",
-        "thumbnail": "https://threeui.com/thumbnails/gradient-cta.jpg",
-        "preview": "https://threeui.com/previews/gradient-cta.webm",
+        "thumbnail": "/thumbnails/gradient-cta.jpg",
+        "preview": "/previews/gradient-cta.webm",
         "props": {
           "variant": "gradient-cta"
         }
@@ -7964,8 +7964,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "lumen-cta",
         "label": "Lumen CTA",
         "description": "The authored six-stop violet gradient pill with its inner highlight, cast glow, and trailing open ring.",
-        "thumbnail": "https://threeui.com/thumbnails/lumen-cta.jpg",
-        "preview": "https://threeui.com/previews/lumen-cta.webm",
+        "thumbnail": "/thumbnails/lumen-cta.jpg",
+        "preview": "/previews/lumen-cta.webm",
         "props": {
           "variant": "lumen-cta"
         },
@@ -8019,8 +8019,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "lumen-cta-ghost",
         "label": "Lumen CTA Ghost",
         "description": "The authored sibling pill with the same geometry, a blurred glass fill, and a hairline outline.",
-        "thumbnail": "https://threeui.com/thumbnails/lumen-cta-ghost.jpg",
-        "preview": "https://threeui.com/previews/lumen-cta-ghost.webm",
+        "thumbnail": "/thumbnails/lumen-cta-ghost.jpg",
+        "preview": "/previews/lumen-cta-ghost.webm",
         "props": {
           "variant": "lumen-cta-ghost"
         },
@@ -8074,8 +8074,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "trochil-signal",
         "label": "Trochil Signal",
         "description": "The selected Trochil request-access treatment: a restrained black technical rectangle with a fine lit edge and passing warm signal sheen.",
-        "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons-trochil-signal.jpg",
-        "preview": "https://threeui.com/previews/rectangle-buttons-trochil-signal.webm",
+        "thumbnail": "/thumbnails/rectangle-buttons-trochil-signal.jpg",
+        "preview": "/previews/rectangle-buttons-trochil-signal.webm",
         "props": {
           "variant": "trochil-signal"
         },
@@ -8129,8 +8129,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "attune-thermal",
         "label": "Attune Thermal",
         "description": "The selected Attune primary action with a compact orange thermal gradient, inset highlight, grounded glow, and chevron.",
-        "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons-attune-thermal.jpg",
-        "preview": "https://threeui.com/previews/rectangle-buttons-attune-thermal.webm",
+        "thumbnail": "/thumbnails/rectangle-buttons-attune-thermal.jpg",
+        "preview": "/previews/rectangle-buttons-attune-thermal.webm",
         "props": {
           "variant": "attune-thermal"
         },
@@ -8184,8 +8184,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "tideform-outline",
         "label": "Tideform Outline",
         "description": "The selected Tideform action: a square technical outline with tracked mono type, warm hover state, and a long directional arrow.",
-        "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons-tideform-outline.jpg",
-        "preview": "https://threeui.com/previews/rectangle-buttons-tideform-outline.webm",
+        "thumbnail": "/thumbnails/rectangle-buttons-tideform-outline.jpg",
+        "preview": "/previews/rectangle-buttons-tideform-outline.webm",
         "props": {
           "variant": "tideform-outline"
         },
@@ -8239,8 +8239,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "understory-arrow-pill",
         "label": "Understory Arrow Pill",
         "description": "The selected Understory action with a violet capsule surface and an inset paper-toned circular arrow endcap.",
-        "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons-understory-arrow-pill.jpg",
-        "preview": "https://threeui.com/previews/rectangle-buttons-understory-arrow-pill.webm",
+        "thumbnail": "/thumbnails/rectangle-buttons-understory-arrow-pill.jpg",
+        "preview": "/previews/rectangle-buttons-understory-arrow-pill.webm",
         "props": {
           "variant": "understory-arrow-pill"
         },
@@ -8294,8 +8294,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "meridian-keycap-primary",
         "label": "Meridian Keycap Primary",
         "description": "The selected Meridian primary action rebuilt as a blue illuminated keycap with a physical base, LED, and pressed hover travel.",
-        "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons-meridian-keycap-primary.jpg",
-        "preview": "https://threeui.com/previews/rectangle-buttons-meridian-keycap-primary.webm",
+        "thumbnail": "/thumbnails/rectangle-buttons-meridian-keycap-primary.jpg",
+        "preview": "/previews/rectangle-buttons-meridian-keycap-primary.webm",
         "props": {
           "variant": "meridian-keycap-primary"
         },
@@ -8349,8 +8349,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "meridian-keycap-secondary",
         "label": "Meridian Keycap Secondary",
         "description": "The selected Meridian secondary action using the same tactile keycap geometry in its graphite night-side treatment.",
-        "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons-meridian-keycap-secondary.jpg",
-        "preview": "https://threeui.com/previews/rectangle-buttons-meridian-keycap-secondary.webm",
+        "thumbnail": "/thumbnails/rectangle-buttons-meridian-keycap-secondary.jpg",
+        "preview": "/previews/rectangle-buttons-meridian-keycap-secondary.webm",
         "props": {
           "variant": "meridian-keycap-secondary"
         },
@@ -8404,8 +8404,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "halvorsen-arrow-pill",
         "label": "Halvorsen Arrow Pill",
         "description": "The selected Halvorsen action: the shared editorial arrow-pill structure recut as a bone-white capsule with a black inset arrow disc.",
-        "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons-halvorsen-arrow-pill.jpg",
-        "preview": "https://threeui.com/previews/rectangle-buttons-halvorsen-arrow-pill.webm",
+        "thumbnail": "/thumbnails/rectangle-buttons-halvorsen-arrow-pill.jpg",
+        "preview": "/previews/rectangle-buttons-halvorsen-arrow-pill.webm",
         "props": {
           "variant": "halvorsen-arrow-pill"
         },
@@ -8459,8 +8459,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "aster-glass-access",
         "label": "Aster Glass Access",
         "description": "The compact Aster navigation action with a translucent smoke surface, masked crystalline edge, top sheen, and restrained hover lift.",
-        "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons-aster-glass-access.jpg",
-        "preview": "https://threeui.com/previews/rectangle-buttons-aster-glass-access.webm",
+        "thumbnail": "/thumbnails/rectangle-buttons-aster-glass-access.jpg",
+        "preview": "/previews/rectangle-buttons-aster-glass-access.webm",
         "props": {
           "variant": "aster-glass-access"
         },
@@ -8514,8 +8514,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "aster-glass-arrow",
         "label": "Aster Glass Arrow",
         "description": "The Aster primary CTA using the same glass material with a bordered inset chip and a directional arrow that advances on hover.",
-        "thumbnail": "https://threeui.com/thumbnails/rectangle-buttons-aster-glass-arrow.jpg",
-        "preview": "https://threeui.com/previews/rectangle-buttons-aster-glass-arrow.webm",
+        "thumbnail": "/thumbnails/rectangle-buttons-aster-glass-arrow.jpg",
+        "preview": "/previews/rectangle-buttons-aster-glass-arrow.webm",
         "props": {
           "variant": "aster-glass-arrow"
         },
@@ -8606,10 +8606,10 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Circle Buttons",
-    "thumbnail": "https://threeui.com/thumbnails/circle-buttons.jpg",
+    "thumbnail": "/thumbnails/circle-buttons.jpg",
     "description": "Three compact circular icon controls using the exact Dark Glass, Launch, and Dot Border material systems.",
     "runtime": "DOM + CSS",
-    "origin": "ThreeUI",
+    "origin": "AnimatedWebs UI",
     "sourceCommit": "SHA-256 2e85693f7ada",
     "sourceFiles": [
       "src/shaders/circle-buttons/CircleButtons.tsx",
@@ -8707,16 +8707,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "play",
         "label": "Play",
         "description": "The Dark Glass rectangle reduced to a compact circle with its original charcoal surface, masked edge, and moving conic light.",
-        "thumbnail": "https://threeui.com/thumbnails/circle-buttons.jpg",
-        "preview": "https://threeui.com/previews/circle-buttons.webm",
+        "thumbnail": "/thumbnails/circle-buttons.jpg",
+        "preview": "/previews/circle-buttons.webm",
         "props": {}
       },
       {
         "id": "plus",
         "label": "Plus",
         "description": "The Launch rectangle's exact amber gradient, 4px base, soft aura, and 2px pressed state around a centered plus glyph.",
-        "thumbnail": "https://threeui.com/thumbnails/circle-buttons-plus.jpg",
-        "preview": "https://threeui.com/previews/circle-buttons-plus.webm",
+        "thumbnail": "/thumbnails/circle-buttons-plus.jpg",
+        "preview": "/previews/circle-buttons-plus.webm",
         "props": {
           "variant": "plus"
         }
@@ -8725,8 +8725,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "mail",
         "label": "Mail",
         "description": "The Dot Border rectangle's transparent face, blue hover fill, four moving corner dots, and sequential dashed frame around a mail glyph.",
-        "thumbnail": "https://threeui.com/thumbnails/circle-buttons-mail.jpg",
-        "preview": "https://threeui.com/previews/circle-buttons-mail.webm",
+        "thumbnail": "/thumbnails/circle-buttons-mail.jpg",
+        "preview": "/previews/circle-buttons-mail.webm",
         "props": {
           "variant": "mail"
         }
@@ -8776,7 +8776,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Liquid Metal Button",
-    "thumbnail": "https://threeui.com/thumbnails/liquid-metal-button.jpg",
+    "thumbnail": "/thumbnails/liquid-metal-button.jpg",
     "description": "A prismatic liquid-metal control in Sign up pill, Liquid Orb, and configurable Play Circle variants, with pointer-following bloom and press ripples.",
     "runtime": "Raw WebGL 2 + DOM/CSS",
     "origin": "Owner-selected HTML",
@@ -8857,7 +8857,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "play-circle",
         "label": "Play Circle",
         "description": "A compact icon-only play control with configurable finish, diameter, outline, and accessible label.",
-        "thumbnail": "https://threeui.com/thumbnails/liquid-metal-play-button.jpg",
+        "thumbnail": "/thumbnails/liquid-metal-play-button.jpg",
         "preview": "",
         "props": {
           "variant": "play"
@@ -8911,8 +8911,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "pill",
         "label": "Sign up Pill",
         "description": "The original authored liquid-metal Sign up pill with its complete spectral field, bloom, pointer well, and faceted press ripple.",
-        "thumbnail": "https://threeui.com/thumbnails/liquid-metal-button.jpg",
-        "preview": "https://threeui.com/previews/liquid-metal-button.webm",
+        "thumbnail": "/thumbnails/liquid-metal-button.jpg",
+        "preview": "/previews/liquid-metal-button.webm",
         "props": {
           "variant": "pill"
         }
@@ -8921,8 +8921,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "circle",
         "label": "Liquid Orb",
         "description": "The exact liquid-metal WebGL field measured through a compact 56–72px circular plus control, preserving every original interaction and post-process pass.",
-        "thumbnail": "https://threeui.com/thumbnails/liquid-metal-button-circle.jpg",
-        "preview": "https://threeui.com/previews/liquid-metal-button-circle.webm",
+        "thumbnail": "/thumbnails/liquid-metal-button-circle.jpg",
+        "preview": "/previews/liquid-metal-button-circle.webm",
         "props": {
           "variant": "circle"
         }
@@ -8963,7 +8963,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Buttons",
     "label": "Lumen CTA",
-    "thumbnail": "https://threeui.com/thumbnails/lumen-cta.jpg",
+    "thumbnail": "/thumbnails/lumen-cta.jpg",
     "description": "The Lumen call-to-action pill: a six-stop violet gradient running black to lilac, a hairline inner highlight, a soft cast glow, and the small open ring that trails the label.",
     "runtime": "DOM + CSS",
     "origin": "Owner-supplied HTML Pages source",
@@ -9068,7 +9068,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Sections",
     "label": "Editorial Intro",
-    "thumbnail": "https://threeui.com/thumbnails/editorial-intro.jpg",
+    "thumbnail": "/thumbnails/editorial-intro.jpg",
     "description": "A centered editorial intro built around a dimly lit device illustration, circuit traces, and oversized gradient typography.",
     "runtime": "DOM + CSS",
     "origin": "HTML Pages",
@@ -9134,7 +9134,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Sections",
     "label": "Newsletter Footer",
-    "thumbnail": "https://threeui.com/thumbnails/newsletter-footer.jpg",
+    "thumbnail": "/thumbnails/newsletter-footer.jpg",
     "description": "A dark unbranded product footer with an inline newsletter form, oversized closing phrase, and compact legal navigation.",
     "runtime": "DOM + CSS",
     "origin": "HTML Pages",
@@ -9210,7 +9210,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "UI Elements",
     "label": "Character Carousel",
-    "thumbnail": "https://threeui.com/thumbnails/character-carousel.jpg",
+    "thumbnail": "/thumbnails/character-carousel.jpg",
     "description": "Two authored editorial character-card carousels collected as a light filmstrip and a dark responsive wave.",
     "runtime": "DOM + CSS",
     "origin": "HTML Pages",
@@ -9310,8 +9310,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "character-filmstrip",
         "label": "Filmstrip",
         "description": "A warm editorial card deck with framed portraits, numbered identity footers, paper grain, and a deep looping perspective rail.",
-        "thumbnail": "https://threeui.com/thumbnails/character-filmstrip.jpg",
-        "preview": "https://threeui.com/previews/character-filmstrip.webm",
+        "thumbnail": "/thumbnails/character-filmstrip.jpg",
+        "preview": "/previews/character-filmstrip.webm",
         "props": {
           "variant": "filmstrip"
         }
@@ -9320,8 +9320,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "character-wave",
         "label": "Wave",
         "description": "A dark dimensional card wave with colored profile tiles, responsive horizontal-to-vertical motion, and orientation toggling.",
-        "thumbnail": "https://threeui.com/thumbnails/character-wave.jpg",
-        "preview": "https://threeui.com/previews/character-wave.webm",
+        "thumbnail": "/thumbnails/character-wave.jpg",
+        "preview": "/previews/character-wave.webm",
         "props": {
           "variant": "wave"
         }
@@ -9357,7 +9357,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "UI Elements",
     "label": "Character Filmstrip",
-    "thumbnail": "https://threeui.com/thumbnails/character-filmstrip.jpg",
+    "thumbnail": "/thumbnails/character-filmstrip.jpg",
     "description": "A warm editorial character filmstrip with framed portraits, numbered identity footers, paper grain, and a looping perspective rail.",
     "runtime": "DOM + CSS",
     "origin": "HTML Pages",
@@ -9473,7 +9473,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "UI Elements",
     "label": "Character Wave",
-    "thumbnail": "https://threeui.com/thumbnails/character-wave.jpg",
+    "thumbnail": "/thumbnails/character-wave.jpg",
     "description": "A dark dimensional character-card wave with colored tiles, responsive horizontal-to-vertical motion, and orientation toggling.",
     "runtime": "DOM + CSS",
     "origin": "HTML Pages",
@@ -9586,7 +9586,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "UI Elements",
     "label": "Gallery",
-    "thumbnail": "https://threeui.com/thumbnails/gallery.jpg",
+    "thumbnail": "/thumbnails/gallery.jpg",
     "description": "The isolated Vantrix hero image ribbon: sixteen curved editorial panels orbiting a vertical cylindrical rail on a quiet paper grid.",
     "runtime": "Three.js r149",
     "origin": "Aura local HTML",
@@ -9706,7 +9706,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Cloud Field",
-    "thumbnail": "https://threeui.com/thumbnails/cloud-field.jpg",
+    "thumbnail": "/thumbnails/cloud-field.jpg",
     "description": "The complete raw-WebGL cloud migration background isolated at its exact source renderer boundary.",
     "runtime": "Raw WebGL",
     "origin": "Neuform export",
@@ -9788,7 +9788,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Void Field",
-    "thumbnail": "https://threeui.com/thumbnails/void-field.jpg",
+    "thumbnail": "/thumbnails/void-field.jpg",
     "description": "The exact transparent raw-WebGL void field, detached from the article and typography around it.",
     "runtime": "Raw WebGL",
     "origin": "Neuform export",
@@ -9915,7 +9915,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Sylva Living World",
-    "thumbnail": "https://threeui.com/thumbnails/sylva-living-world.jpg",
+    "thumbnail": "/thumbnails/sylva-living-world.jpg",
     "description": "The original procedural moss-root world with pale flowers, ferns, drifting pollen, scan light, and a landing butterfly.",
     "runtime": "Three.js r149",
     "origin": "Owner-selected HTML Pages scene",
@@ -9977,8 +9977,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "living-green",
         "label": "Living Green",
         "description": "The original procedural moss-root world with pale flowers, ferns, drifting pollen, scan light, and a landing butterfly.",
-        "thumbnail": "https://threeui.com/thumbnails/sylva-living-world.jpg",
-        "preview": "https://threeui.com/previews/sylva-living-world.webm",
+        "thumbnail": "/thumbnails/sylva-living-world.jpg",
+        "preview": "/previews/sylva-living-world.webm",
         "props": {
           "variant": "living-green"
         }
@@ -10004,7 +10004,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Temple Night",
-    "thumbnail": "https://threeui.com/thumbnails/temple-night.jpg",
+    "thumbnail": "/thumbnails/temple-night.jpg",
     "description": "Kage’s procedural Kyoto mountain temple after dark, with the exact authored architecture, rain, mist, leaves, pointer wisps, camera composition, and bloom pipeline.",
     "runtime": "Three.js r149",
     "origin": "HTML Pages",
@@ -10061,8 +10061,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "temple-night",
         "label": "Temple Night",
         "description": "Kage’s procedural Kyoto mountain temple after dark, with the exact authored architecture, rain, mist, leaves, pointer wisps, camera composition, and bloom pipeline.",
-        "thumbnail": "https://threeui.com/thumbnails/temple-night.jpg",
-        "preview": "https://threeui.com/previews/temple-night.webm",
+        "thumbnail": "/thumbnails/temple-night.jpg",
+        "preview": "/previews/temple-night.webm",
         "props": {
           "variant": "temple-night"
         }
@@ -10106,7 +10106,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Landscape",
-    "thumbnail": "https://threeui.com/thumbnails/landscape-sunrise.jpg",
+    "thumbnail": "/thumbnails/landscape-sunrise.jpg",
     "description": "A tower-free procedural terrain whose light, sky, fog, stars, rain, lightning, snow, grass, and stones move through seven authored environment states.",
     "runtime": "Three.js r149",
     "origin": "MengTo/towers",
@@ -10169,8 +10169,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "sunrise",
         "label": "Sunrise",
         "description": "Low amber light crossing the grass and distant ridges under the source's warm morning sky.",
-        "thumbnail": "https://threeui.com/thumbnails/landscape-sunrise.jpg",
-        "preview": "https://threeui.com/previews/landscape-sunrise.webm",
+        "thumbnail": "/thumbnails/landscape-sunrise.jpg",
+        "preview": "/previews/landscape-sunrise.webm",
         "props": {
           "variant": "sunrise"
         }
@@ -10179,8 +10179,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "noon",
         "label": "Noon",
         "description": "Clear cool daylight with the terrain, moisture colours, stones, and grass at their most legible.",
-        "thumbnail": "https://threeui.com/thumbnails/landscape-noon.jpg",
-        "preview": "https://threeui.com/previews/landscape-noon.webm",
+        "thumbnail": "/thumbnails/landscape-noon.jpg",
+        "preview": "/previews/landscape-noon.webm",
         "props": {
           "variant": "noon"
         }
@@ -10189,8 +10189,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "sunset",
         "label": "Sunset",
         "description": "The ridges and grass settle into long warm light beneath a deepening six-stop sky.",
-        "thumbnail": "https://threeui.com/thumbnails/landscape-sunset.jpg",
-        "preview": "https://threeui.com/previews/landscape-sunset.webm",
+        "thumbnail": "/thumbnails/landscape-sunset.jpg",
+        "preview": "/previews/landscape-sunset.webm",
         "props": {
           "variant": "sunset"
         }
@@ -10199,8 +10199,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "night",
         "label": "Night",
         "description": "Moonlit terrain beneath 39,200 stars constrained to the landscape camera's visible band.",
-        "thumbnail": "https://threeui.com/thumbnails/landscape-night.jpg",
-        "preview": "https://threeui.com/previews/landscape-night.webm",
+        "thumbnail": "/thumbnails/landscape-night.jpg",
+        "preview": "/previews/landscape-night.webm",
         "props": {
           "variant": "night"
         }
@@ -10209,8 +10209,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "rain",
         "label": "Rain",
         "description": "Rain draws in the fog, darkens the ground into puddles, and throws small splashes across the field.",
-        "thumbnail": "https://threeui.com/thumbnails/landscape-rain.jpg",
-        "preview": "https://threeui.com/previews/landscape-rain.webm",
+        "thumbnail": "/thumbnails/landscape-rain.jpg",
+        "preview": "/previews/landscape-rain.webm",
         "props": {
           "variant": "rain"
         }
@@ -10219,8 +10219,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "storm",
         "label": "Storm",
         "description": "A dense sideways downpour over sunset light, with close fog and multi-stroke lightning flashes.",
-        "thumbnail": "https://threeui.com/thumbnails/landscape-storm.jpg",
-        "preview": "https://threeui.com/previews/landscape-storm.webm",
+        "thumbnail": "/thumbnails/landscape-storm.jpg",
+        "preview": "/previews/landscape-storm.webm",
         "props": {
           "variant": "storm"
         }
@@ -10229,8 +10229,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "snow",
         "label": "Snow",
         "description": "Wind-driven snow settles across the terrain, stones, and grass while a blizzard tightens the horizon.",
-        "thumbnail": "https://threeui.com/thumbnails/landscape-snow.jpg",
-        "preview": "https://threeui.com/previews/landscape-snow.webm",
+        "thumbnail": "/thumbnails/landscape-snow.jpg",
+        "preview": "/previews/landscape-snow.webm",
         "props": {
           "variant": "snow"
         }
@@ -10271,7 +10271,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Country Towers",
-    "thumbnail": "https://threeui.com/thumbnails/japanese-tower.jpg",
+    "thumbnail": "/thumbnails/japanese-tower.jpg",
     "description": "Six country-specific towers assembling above a procedural landscape: Japanese, Chinese, Vietnamese, Thai, Khmer, and Ottoman.",
     "runtime": "Three.js r149 + Canvas 2D",
     "origin": "MengTo/towers",
@@ -10329,8 +10329,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "japan",
         "label": "Japan",
         "description": "A Japanese tenshu with an ishigaki stone base, plastered storeys, and flying tiled eaves.",
-        "thumbnail": "https://threeui.com/thumbnails/japanese-tower.jpg",
-        "preview": "https://threeui.com/previews/japanese-tower.webm",
+        "thumbnail": "/thumbnails/japanese-tower.jpg",
+        "preview": "/previews/japanese-tower.webm",
         "props": {
           "country": "japan"
         }
@@ -10339,8 +10339,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "china",
         "label": "China",
         "description": "A Chinese pagoda in vermilion lacquer and green glaze beneath a gilt finial.",
-        "thumbnail": "https://threeui.com/thumbnails/tower-china.jpg",
-        "preview": "https://threeui.com/previews/tower-china.webm",
+        "thumbnail": "/thumbnails/tower-china.jpg",
+        "preview": "/previews/tower-china.webm",
         "props": {
           "country": "china"
         }
@@ -10349,8 +10349,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "vietnam",
         "label": "Vietnam",
         "description": "A Vietnamese tháp with seven octagonal Huế lime-wash storeys and lifted tiled eaves.",
-        "thumbnail": "https://threeui.com/thumbnails/tower-vietnam.jpg",
-        "preview": "https://threeui.com/previews/tower-vietnam.webm",
+        "thumbnail": "/thumbnails/tower-vietnam.jpg",
+        "preview": "/previews/tower-vietnam.webm",
         "props": {
           "country": "vietnam"
         }
@@ -10359,8 +10359,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "thailand",
         "label": "Thailand",
         "description": "A Thai prang rising from a stepped plinth into a richly detailed gold spire.",
-        "thumbnail": "https://threeui.com/thumbnails/tower-thailand.jpg",
-        "preview": "https://threeui.com/previews/tower-thailand.webm",
+        "thumbnail": "/thumbnails/tower-thailand.jpg",
+        "preview": "/previews/tower-thailand.webm",
         "props": {
           "country": "thailand"
         }
@@ -10369,8 +10369,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "cambodia",
         "label": "Cambodia",
         "description": "A Khmer prasat on laterite terraces with a redented sanctuary and diminishing sandstone tiers.",
-        "thumbnail": "https://threeui.com/thumbnails/tower-cambodia.jpg",
-        "preview": "https://threeui.com/previews/tower-cambodia.webm",
+        "thumbnail": "/thumbnails/tower-cambodia.jpg",
+        "preview": "/previews/tower-cambodia.webm",
         "props": {
           "country": "cambodia"
         }
@@ -10379,8 +10379,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "turkey",
         "label": "Turkey",
         "description": "An Ottoman mosque with limestone ashlar, İznik tile, a lead dome, and twin pencil minarets.",
-        "thumbnail": "https://threeui.com/thumbnails/tower-turkey.jpg",
-        "preview": "https://threeui.com/previews/tower-turkey.webm",
+        "thumbnail": "/thumbnails/tower-turkey.jpg",
+        "preview": "/previews/tower-turkey.webm",
         "props": {
           "country": "turkey"
         }
@@ -10405,7 +10405,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Bookshelf",
-    "thumbnail": "https://threeui.com/thumbnails/bookshelf.jpg",
+    "thumbnail": "/thumbnails/bookshelf.jpg",
     "description": "The exact seven-volume Bookshelf collection with its authored room, carousel shelf, individual cover artwork, foil, pages, inspection, opening, and page-turn system.",
     "runtime": "Three.js r165",
     "origin": "The Bookshelf",
@@ -10483,7 +10483,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Structure Flow",
-    "thumbnail": "https://threeui.com/thumbnails/structure-flow.jpg",
+    "thumbnail": "/thumbnails/structure-flow.jpg",
     "description": "Thirteen authored Three.js field studies collected as one family, spanning particle domes, horizons, orbital systems, matrices, topology, fluid fields, embers, and vortexes.",
     "runtime": "Three.js r128–r160",
     "origin": "Neuform export",
@@ -10579,8 +10579,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "structure-flow",
         "label": "Structure Flow",
         "description": "A masked white particle dome drifting across a dark field.",
-        "thumbnail": "https://threeui.com/thumbnails/structure-flow.jpg",
-        "preview": "https://threeui.com/previews/structure-flow.webm",
+        "thumbnail": "/thumbnails/structure-flow.jpg",
+        "preview": "/previews/structure-flow.webm",
         "props": {
           "variant": "structure-flow"
         },
@@ -10636,8 +10636,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "emerald-horizon",
         "label": "Emerald Horizon",
         "description": "A deep emerald shader glow rising from an organic moving horizon.",
-        "thumbnail": "https://threeui.com/thumbnails/emerald-horizon.jpg",
-        "preview": "https://threeui.com/previews/emerald-horizon.webm",
+        "thumbnail": "/thumbnails/emerald-horizon.jpg",
+        "preview": "/previews/emerald-horizon.webm",
         "props": {
           "variant": "emerald-horizon"
         },
@@ -10702,8 +10702,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "orbital-sphere",
         "label": "Orbital Sphere",
         "description": "A violet particle synthesis sphere with encrypted orbital rings and luminous data nodes.",
-        "thumbnail": "https://threeui.com/thumbnails/orbital-sphere.jpg",
-        "preview": "https://threeui.com/previews/orbital-sphere.webm",
+        "thumbnail": "/thumbnails/orbital-sphere.jpg",
+        "preview": "/previews/orbital-sphere.webm",
         "props": {
           "variant": "orbital-sphere"
         },
@@ -10777,8 +10777,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "dot-matrix",
         "label": "Dot Matrix",
         "description": "A cyan breathing dot matrix with radial depth fade and smoothed pointer drift.",
-        "thumbnail": "https://threeui.com/thumbnails/dot-matrix.jpg",
-        "preview": "https://threeui.com/previews/dot-matrix.webm",
+        "thumbnail": "/thumbnails/dot-matrix.jpg",
+        "preview": "/previews/dot-matrix.webm",
         "props": {
           "variant": "dot-matrix"
         },
@@ -10852,8 +10852,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "expanse-field",
         "label": "Expanse Field",
         "description": "A full-screen ShaderMaterial expanse isolated from its original editorial layout.",
-        "thumbnail": "https://threeui.com/thumbnails/expanse-field.jpg",
-        "preview": "https://threeui.com/previews/expanse-field.webm",
+        "thumbnail": "/thumbnails/expanse-field.jpg",
+        "preview": "/previews/expanse-field.webm",
         "props": {
           "variant": "expanse-field"
         },
@@ -10891,8 +10891,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "logic-core",
         "label": "Logic Core",
         "description": "An isometric platform, illuminated logic core, and orbiting nodes.",
-        "thumbnail": "https://threeui.com/thumbnails/logic-core.jpg",
-        "preview": "https://threeui.com/previews/logic-core.webm",
+        "thumbnail": "/thumbnails/logic-core.jpg",
+        "preview": "/previews/logic-core.webm",
         "props": {
           "variant": "logic-core"
         },
@@ -10930,8 +10930,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "dimensional-field",
         "label": "Dimensional Field",
         "description": "Dimensional architecture composed from two authored ShaderMaterials.",
-        "thumbnail": "https://threeui.com/thumbnails/dimensional-field.jpg",
-        "preview": "https://threeui.com/previews/dimensional-field.webm",
+        "thumbnail": "/thumbnails/dimensional-field.jpg",
+        "preview": "/previews/dimensional-field.webm",
         "props": {
           "variant": "dimensional-field"
         },
@@ -10969,8 +10969,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "data-field",
         "label": "Data Field",
         "description": "A global-data Three.js network visual isolated from its dashboard frame.",
-        "thumbnail": "https://threeui.com/thumbnails/data-field.jpg",
-        "preview": "https://threeui.com/previews/data-field.webm",
+        "thumbnail": "/thumbnails/data-field.jpg",
+        "preview": "/previews/data-field.webm",
         "props": {
           "variant": "data-field"
         },
@@ -11008,8 +11008,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "topology-field",
         "label": "Topology Field",
         "description": "A rotating topology graph with connected nodes and rhythmic point pulses.",
-        "thumbnail": "https://threeui.com/thumbnails/topology-field.jpg",
-        "preview": "https://threeui.com/previews/topology-field.webm",
+        "thumbnail": "/thumbnails/topology-field.jpg",
+        "preview": "/previews/topology-field.webm",
         "props": {
           "variant": "topology-field"
         },
@@ -11047,8 +11047,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "nebula",
         "label": "Nebula",
         "description": "An indigo FBM nebula with pointer drift, breathing light, and vignette.",
-        "thumbnail": "https://threeui.com/thumbnails/nebula.jpg",
-        "preview": "https://threeui.com/previews/nebula.webm",
+        "thumbnail": "/thumbnails/nebula.jpg",
+        "preview": "/previews/nebula.webm",
         "props": {
           "variant": "nebula"
         },
@@ -11086,8 +11086,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "fluid-field",
         "label": "Fluid Field",
         "description": "A blue-violet animated fluid ShaderMaterial.",
-        "thumbnail": "https://threeui.com/thumbnails/fluid-field.jpg",
-        "preview": "https://threeui.com/previews/fluid-field.webm",
+        "thumbnail": "/thumbnails/fluid-field.jpg",
+        "preview": "/previews/fluid-field.webm",
         "props": {
           "variant": "fluid-field"
         },
@@ -11125,8 +11125,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "ember-storm",
         "label": "Ember Storm",
         "description": "A 12,000-particle ember vortex with additive heat grading and flicker.",
-        "thumbnail": "https://threeui.com/thumbnails/ember-storm.jpg",
-        "preview": "https://threeui.com/previews/ember-storm.webm",
+        "thumbnail": "/thumbnails/ember-storm.jpg",
+        "preview": "/previews/ember-storm.webm",
         "props": {
           "variant": "ember-storm"
         },
@@ -11164,8 +11164,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "flux-vortex",
         "label": "Flux Vortex",
         "description": "A blooming particle vortex with spiral filaments and post-process glow.",
-        "thumbnail": "https://threeui.com/thumbnails/flux-vortex.jpg",
-        "preview": "https://threeui.com/previews/flux-vortex.webm",
+        "thumbnail": "/thumbnails/flux-vortex.jpg",
+        "preview": "/previews/flux-vortex.webm",
         "props": {
           "variant": "flux-vortex"
         },
@@ -11264,7 +11264,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Emerald Horizon",
-    "thumbnail": "https://threeui.com/thumbnails/emerald-horizon.jpg",
+    "thumbnail": "/thumbnails/emerald-horizon.jpg",
     "description": "A deep emerald shader glow rising from an organic moving horizon.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -11371,7 +11371,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Orbital Sphere",
-    "thumbnail": "https://threeui.com/thumbnails/orbital-sphere.jpg",
+    "thumbnail": "/thumbnails/orbital-sphere.jpg",
     "description": "A violet particle synthesis sphere with six encrypted orbital rings and luminous data nodes.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -11487,7 +11487,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Dot Matrix",
-    "thumbnail": "https://threeui.com/thumbnails/dot-matrix.jpg",
+    "thumbnail": "/thumbnails/dot-matrix.jpg",
     "description": "A cyan breathing dot matrix with radial depth fade and smoothed pointer drift, extracted from the exact Neuform uplink background.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -11610,7 +11610,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Warp Field",
-    "thumbnail": "https://threeui.com/thumbnails/warp-field.jpg",
+    "thumbnail": "/thumbnails/warp-field.jpg",
     "description": "Nexus’s focused hero warp: 400 emerald additive streaks and 40 luminous tiles streaming through an authored deep-space fog field.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -11722,16 +11722,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "streaks",
         "label": "Warp Field",
         "description": "The original hero warp: 400 emerald streaks and 40 luminous tiles through deep-space fog.",
-        "thumbnail": "https://threeui.com/thumbnails/warp-field.jpg",
-        "preview": "https://threeui.com/previews/warp-field.webm",
+        "thumbnail": "/thumbnails/warp-field.jpg",
+        "preview": "/previews/warp-field.webm",
         "props": {}
       },
       {
         "id": "letters",
         "label": "Letter Storm",
         "description": "160 tumbling glyphs wandering off the rails while the streak field keeps the corridor moving.",
-        "thumbnail": "https://threeui.com/thumbnails/warp-field-letters.jpg",
-        "preview": "https://threeui.com/previews/warp-field-letters.webm",
+        "thumbnail": "/thumbnails/warp-field-letters.jpg",
+        "preview": "/previews/warp-field-letters.webm",
         "props": {
           "variant": "letters"
         }
@@ -11740,8 +11740,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "keycaps",
         "label": "Keycap Drift",
         "description": "72 lit mechanical keycaps tumbling through a 900-spark particle wake.",
-        "thumbnail": "https://threeui.com/thumbnails/warp-field-keycaps.jpg",
-        "preview": "https://threeui.com/previews/warp-field-keycaps.webm",
+        "thumbnail": "/thumbnails/warp-field-keycaps.jpg",
+        "preview": "/previews/warp-field-keycaps.webm",
         "props": {
           "variant": "keycaps"
         }
@@ -11750,8 +11750,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "hyperspace",
         "label": "Hyperspace",
         "description": "1,200 ice-blue streaks stretched down a scrolling tunnel toward a pulsing jump core.",
-        "thumbnail": "https://threeui.com/thumbnails/warp-field-hyperspace.jpg",
-        "preview": "https://threeui.com/previews/warp-field-hyperspace.webm",
+        "thumbnail": "/thumbnails/warp-field-hyperspace.jpg",
+        "preview": "/previews/warp-field-hyperspace.webm",
         "props": {
           "variant": "hyperspace"
         }
@@ -11775,7 +11775,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Expanse Field",
-    "thumbnail": "https://threeui.com/thumbnails/expanse-field.jpg",
+    "thumbnail": "/thumbnails/expanse-field.jpg",
     "description": "The exact full-screen Three.js ShaderMaterial expanse isolated without editorial text or navigation.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -11858,7 +11858,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Logic Core",
-    "thumbnail": "https://threeui.com/thumbnails/logic-core.jpg",
+    "thumbnail": "/thumbnails/logic-core.jpg",
     "description": "The exact isometric platform, logic core, orbiting nodes, and source lighting without its card copy.",
     "runtime": "Three.js r136",
     "origin": "Neuform export",
@@ -11941,7 +11941,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Dimensional Field",
-    "thumbnail": "https://threeui.com/thumbnails/dimensional-field.jpg",
+    "thumbnail": "/thumbnails/dimensional-field.jpg",
     "description": "The exact dimensional architecture background with both authored ShaderMaterials and complete Three.js scene.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -12024,7 +12024,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Data Field",
-    "thumbnail": "https://threeui.com/thumbnails/data-field.jpg",
+    "thumbnail": "/thumbnails/data-field.jpg",
     "description": "The exact global-data Three.js visual isolated from its dashboard frame and text content.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -12108,7 +12108,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Topology Field",
-    "thumbnail": "https://threeui.com/thumbnails/topology-field.jpg",
+    "thumbnail": "/thumbnails/topology-field.jpg",
     "description": "The exact rotating topology graph, connections, and point pulse system from the selected source.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -12191,7 +12191,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Halftone Flow",
-    "thumbnail": "https://threeui.com/thumbnails/halftone-flow.jpg",
+    "thumbnail": "/thumbnails/halftone-flow.jpg",
     "description": "The exact red-orange raw-WebGL flow field resolved through its authored six-pixel halftone matrix.",
     "runtime": "Raw WebGL",
     "origin": "Neuform export",
@@ -12275,7 +12275,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Neon Typography",
-    "thumbnail": "https://threeui.com/thumbnails/neon-sign.jpg",
+    "thumbnail": "/thumbnails/neon-sign.jpg",
     "description": "Hand-shaped neon lettering animated with a slow typographic breath and recurring electrical flicker — tubing geometry, electrodes, and bloom on a neutral field.",
     "runtime": "Canvas 2D",
     "origin": "Neuform export",
@@ -12361,7 +12361,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "UI Elements",
     "label": "Engraved Certificate",
-    "thumbnail": "https://threeui.com/thumbnails/engraved-certificate.jpg",
+    "thumbnail": "/thumbnails/engraved-certificate.jpg",
     "description": "A responsive engraved certificate: plate field, dual guilloche rosettes, and a drifting harmonic pass that auto-cycles through four cam states.",
     "runtime": "Canvas 2D + DOM/CSS",
     "origin": "Neuform export",
@@ -12447,7 +12447,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Woven Cloth",
-    "thumbnail": "https://threeui.com/thumbnails/woven-cloth.jpg",
+    "thumbnail": "/thumbnails/woven-cloth.jpg",
     "description": "A Three.js woven-cloth simulation with Woven Cloth typography printed into its procedural textile so every letter deforms with the fabric, and three companion cloths woven around the same Verlet sheet.",
     "runtime": "Three.js r160",
     "origin": "Neuform export with first-party companion cloths",
@@ -12531,16 +12531,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "woven-cloth",
         "label": "Woven Cloth",
         "description": "The packaged Neuform export, untouched: an ivory banner with a crimson hem and the Woven Cloth wordmark printed into the weave, pinned along its top edge.",
-        "thumbnail": "https://threeui.com/thumbnails/woven-cloth.jpg",
-        "preview": "https://threeui.com/previews/woven-cloth.webm",
+        "thumbnail": "/thumbnails/woven-cloth.jpg",
+        "preview": "/previews/woven-cloth.webm",
         "props": {}
       },
       {
         "id": "iridescent",
         "label": "Iridescent Silk",
         "description": "A five-harness satin under a painted studio environment: a thin-film interference layer whose thickness sweeps one full order across the width, so the colour travels over the folds while the wordmark stays a tone-on-tone jacquard.",
-        "thumbnail": "https://threeui.com/thumbnails/woven-cloth-iridescent.jpg",
-        "preview": "https://threeui.com/previews/woven-cloth-iridescent.webm",
+        "thumbnail": "/thumbnails/woven-cloth-iridescent.jpg",
+        "preview": "/previews/woven-cloth-iridescent.webm",
         "props": {
           "variant": "iridescent"
         }
@@ -12549,8 +12549,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "atelier",
         "label": "Atelier Flag",
         "description": "The same sheet cut and sewn: three linen panels joined by flat-felled seams and topstitching, an indigo heading tape on the hoist with brass grommets and a mast, hemmed at the fly, and a woven label tacked on at the corner.",
-        "thumbnail": "https://threeui.com/thumbnails/woven-cloth-atelier.jpg",
-        "preview": "https://threeui.com/previews/woven-cloth-atelier.webm",
+        "thumbnail": "/thumbnails/woven-cloth-atelier.jpg",
+        "preview": "/previews/woven-cloth-atelier.webm",
         "props": {
           "variant": "atelier"
         }
@@ -12559,8 +12559,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "washi",
         "label": "Washi Noren",
         "description": "An indigo-dyed kozo noren on a wooden rod, backlit through a shoji: laid and chain lines from the papermaking screen, a torn deckle edge cut by an alpha mask, and slits that free three panels to sway on their own.",
-        "thumbnail": "https://threeui.com/thumbnails/woven-cloth-washi.jpg",
-        "preview": "https://threeui.com/previews/woven-cloth-washi.webm",
+        "thumbnail": "/thumbnails/woven-cloth-washi.jpg",
+        "preview": "/previews/woven-cloth-washi.webm",
         "props": {
           "variant": "washi"
         }
@@ -12587,7 +12587,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Nebula",
-    "thumbnail": "https://threeui.com/thumbnails/nebula.jpg",
+    "thumbnail": "/thumbnails/nebula.jpg",
     "description": "The exact indigo Three.js ShaderMaterial nebula with four-octave FBM, pointer drift, breathing light, and vignette.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -12671,7 +12671,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Fluid Field",
-    "thumbnail": "https://threeui.com/thumbnails/fluid-field.jpg",
+    "thumbnail": "/thumbnails/fluid-field.jpg",
     "description": "A blue-violet fluid ShaderMaterial, isolated from the surrounding editor interface.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -12756,7 +12756,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Ember Storm",
-    "thumbnail": "https://threeui.com/thumbnails/ember-storm.jpg",
+    "thumbnail": "/thumbnails/ember-storm.jpg",
     "description": "The exact 12,000-particle Three.js ember vortex with additive heat grading, flicker, and visibility-aware lifecycle.",
     "runtime": "Three.js r160",
     "origin": "Neuform export",
@@ -12844,7 +12844,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "CSS",
     "label": "Performance Gauges",
-    "thumbnail": "https://threeui.com/thumbnails/performance-gauges.jpg",
+    "thumbnail": "/thumbnails/performance-gauges.jpg",
     "description": "Four layered CSS instruments — tachometer, speedometer, turbo boost, and EV power — each isolated to one full-bleed dial with polar tick geometry, scale bands, and a self-testing needle sweep.",
     "runtime": "DOM + CSS",
     "origin": "Neuform export",
@@ -12914,8 +12914,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "tachometer",
         "label": "Tachometer",
         "description": "Orange sunburst dial reading 0–7000 r/min with a redline band, a machined oil-temperature sub-dial, and a counterweighted red needle.",
-        "thumbnail": "https://threeui.com/thumbnails/performance-gauges.jpg",
-        "preview": "https://threeui.com/previews/performance-gauges.webm",
+        "thumbnail": "/thumbnails/performance-gauges.jpg",
+        "preview": "/previews/performance-gauges.webm",
         "props": {
           "variant": "tachometer"
         },
@@ -12953,8 +12953,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "speedometer",
         "label": "Speedometer",
         "description": "0–160 km/h scale whose travelled arc fills behind the needle, with a peak-hold marker, counting digital readout, and rolling odometer.",
-        "thumbnail": "https://threeui.com/thumbnails/performance-gauges-speedometer.jpg",
-        "preview": "https://threeui.com/previews/performance-gauges-speedometer.webm",
+        "thumbnail": "/thumbnails/performance-gauges-speedometer.jpg",
+        "preview": "/previews/performance-gauges-speedometer.webm",
         "props": {
           "variant": "speedometer"
         },
@@ -12992,8 +12992,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "boost",
         "label": "Turbo Boost",
         "description": "Navy −1.0 to 1.5 bar dial that separates the vacuum half from the pressure half and flags the wastegate threshold with a pulsing overboost lamp.",
-        "thumbnail": "https://threeui.com/thumbnails/performance-gauges-boost.jpg",
-        "preview": "https://threeui.com/previews/performance-gauges-boost.webm",
+        "thumbnail": "/thumbnails/performance-gauges-boost.jpg",
+        "preview": "/previews/performance-gauges-boost.webm",
         "props": {
           "variant": "boost"
         },
@@ -13031,8 +13031,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "power",
         "label": "EV Power",
         "description": "Regeneration-to-power scale that fills its track from zero, with a green charge segment, kilowatt readout, and battery state-of-charge bar.",
-        "thumbnail": "https://threeui.com/thumbnails/performance-gauges-power.jpg",
-        "preview": "https://threeui.com/previews/performance-gauges-power.webm",
+        "thumbnail": "/thumbnails/performance-gauges-power.jpg",
+        "preview": "/previews/performance-gauges-power.webm",
         "props": {
           "variant": "power"
         },
@@ -13093,7 +13093,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "CSS",
     "label": "Uplink Loader",
-    "thumbnail": "https://threeui.com/thumbnails/uplink-loader.jpg",
+    "thumbnail": "/thumbnails/uplink-loader.jpg",
     "description": "A cinematic secure-uplink loader with stepped progress, illuminated telemetry ticks, neon readouts, technical corner markers, mirrored side rails, scanlines, and procedural grain.",
     "runtime": "DOM + CSS + JavaScript",
     "origin": "Owner-selected HTML",
@@ -13162,7 +13162,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "CSS",
     "label": "Koi Studies",
-    "thumbnail": "https://threeui.com/thumbnails/koi-studies.jpg",
+    "thumbnail": "/thumbnails/koi-studies.jpg",
     "description": "A tactile stack of three Japanese koi studies with CSS 3D depth, pointer tilt, drag and keyboard navigation, pixel-mask reveals, and animated halftone imagery.",
     "runtime": "DOM + CSS 3D + Canvas 2D + WebGL",
     "origin": "Owner-supplied HTML Pages source",
@@ -13241,7 +13241,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Text Animation",
     "label": "Article Headings",
-    "thumbnail": "https://threeui.com/thumbnails/article-headings.jpg",
+    "thumbnail": "/thumbnails/article-headings.jpg",
     "description": "Three expressive text treatments collected in one family: a chromatic intro, a particle wordmark, and an audio-reactive identity lockup.",
     "runtime": "DOM/CSS + Canvas 2D",
     "origin": "Sable V1 + owner-selected HTML + Neuform export",
@@ -13358,9 +13358,9 @@ export const READY_SHADERS: readonly ReadyShader[] = [
       {
         "id": "threeui-intro",
         "label": "Intro Text",
-        "description": "The opening chromatic ThreeUI wordmark assembly, isolated to its first authored beat.",
-        "thumbnail": "https://threeui.com/thumbnails/threeui-intro.jpg",
-        "preview": "https://threeui.com/previews/threeui-intro.webm",
+        "description": "The opening chromatic AnimatedWebs UI wordmark assembly, isolated to its first authored beat.",
+        "thumbnail": "/thumbnails/threeui-intro.jpg",
+        "preview": "/previews/threeui-intro.webm",
         "props": {
           "variant": "threeui-intro"
         },
@@ -13414,8 +13414,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "particle-wordmark",
         "label": "Particle Wordmark",
         "description": "The Shaders wordmark materializes through a seeded field of drifting dots and squares.",
-        "thumbnail": "https://threeui.com/thumbnails/particle-wordmark.jpg",
-        "preview": "https://threeui.com/previews/particle-wordmark.webm",
+        "thumbnail": "/thumbnails/particle-wordmark.jpg",
+        "preview": "/previews/particle-wordmark.webm",
         "props": {
           "variant": "particle-wordmark"
         },
@@ -13468,9 +13468,9 @@ export const READY_SHADERS: readonly ReadyShader[] = [
       {
         "id": "audio-wordmark",
         "label": "Audio Wordmark",
-        "description": "Animated circular audio-bar fields paired with a compact ThreeUI wordmark and icon lockup.",
-        "thumbnail": "https://threeui.com/thumbnails/audio-wordmark.jpg",
-        "preview": "https://threeui.com/previews/audio-wordmark.webm",
+        "description": "Animated circular audio-bar fields paired with a compact AnimatedWebs UI wordmark and icon lockup.",
+        "thumbnail": "/thumbnails/audio-wordmark.jpg",
+        "preview": "/previews/audio-wordmark.webm",
         "props": {
           "variant": "audio-wordmark"
         },
@@ -13566,10 +13566,10 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "CSS",
     "label": "Animated Top Dock",
-    "thumbnail": "https://threeui.com/thumbnails/animated-top-dock.jpg",
+    "thumbnail": "/thumbnails/animated-top-dock.jpg",
     "description": "Sable’s proximity-spring menu in four fits: the authored centred dock, a modern command bar, a fitted pixel-terminal strip, and a vertical refracting Three.js glass rail.",
     "runtime": "DOM + CSS + WebGL + Three.js r128",
-    "origin": "Sable V1 + ThreeUI original",
+    "origin": "Sable V1 + AnimatedWebs UI original",
     "sourceCommit": "5a736cd3c1f6f19802f61ebb10e1701b9f7aa26e",
     "sourceFiles": [
       "ascii-page-transition-v1.html — exact top menu dock",
@@ -13682,8 +13682,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "sable",
         "label": "Sable Dock",
         "description": "The authored Sable dock: a centred glass capsule whose items spring downward and widen as the pointer crosses them.",
-        "thumbnail": "https://threeui.com/thumbnails/animated-top-dock.jpg",
-        "preview": "https://threeui.com/previews/animated-top-dock.webm",
+        "thumbnail": "/thumbnails/animated-top-dock.jpg",
+        "preview": "/previews/animated-top-dock.webm",
         "props": {
           "variant": "sable"
         },
@@ -13748,8 +13748,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "modern",
         "label": "Command Bar",
         "description": "An inset modern header: wordmark on the left, the proximity dock centred on the bar’s midline, and a paired sign-in and gradient call to action on the right.",
-        "thumbnail": "https://threeui.com/thumbnails/animated-top-dock-modern.jpg",
-        "preview": "https://threeui.com/previews/animated-top-dock-modern.webm",
+        "thumbnail": "/thumbnails/animated-top-dock-modern.jpg",
+        "preview": "/previews/animated-top-dock-modern.webm",
         "props": {
           "variant": "modern"
         },
@@ -13814,8 +13814,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "retro",
         "label": "Pixel Terminal",
         "description": "A fitted terminal strip: the menu cells own the whole bar and trade width with each other, over a WebGL noise field quantised through an 8×8 ordered dither into an eight-stop dusk palette.",
-        "thumbnail": "https://threeui.com/thumbnails/animated-top-dock-retro.jpg",
-        "preview": "https://threeui.com/previews/animated-top-dock-retro.webm",
+        "thumbnail": "/thumbnails/animated-top-dock-retro.jpg",
+        "preview": "/previews/animated-top-dock-retro.webm",
         "props": {
           "variant": "retro"
         },
@@ -13889,8 +13889,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "glass",
         "label": "Liquid Glass",
         "description": "A vertical glass rail whose proximity field runs down the y axis, over a Three.js bead field that refracts the backdrop in screen space with per-channel dispersion and a specular rim.",
-        "thumbnail": "https://threeui.com/thumbnails/animated-top-dock-glass.jpg",
-        "preview": "https://threeui.com/previews/animated-top-dock-glass.webm",
+        "thumbnail": "/thumbnails/animated-top-dock-glass.jpg",
+        "preview": "/previews/animated-top-dock-glass.webm",
         "props": {
           "variant": "glass"
         },
@@ -13998,7 +13998,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "CSS",
     "label": "Sketchbook",
-    "thumbnail": "https://threeui.com/thumbnails/sketchbook.jpg",
+    "thumbnail": "/thumbnails/sketchbook.jpg",
     "description": "The exact Singapore paper sketchbook with nested-strip page curls, direct dragging, tilt, zoom, a movable magnifying glass, and its complete authored plate set.",
     "runtime": "DOM + CSS 3D",
     "origin": "Sketchbook",
@@ -14063,7 +14063,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Constellation Field",
-    "thumbnail": "https://threeui.com/thumbnails/constellation-field.jpg",
+    "thumbnail": "/thumbnails/constellation-field.jpg",
     "description": "A family of particle networks, gateways, interface lines, defense traces, and topographic fields gathered into one configurable collection.",
     "runtime": "Canvas 2D + Raw WebGL",
     "origin": "Neuform export",
@@ -14251,16 +14251,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "constellation-field",
         "label": "Constellation Field",
         "description": "A drifting particle constellation network with tunable link stroke width over a deep night field.",
-        "thumbnail": "https://threeui.com/thumbnails/constellation-field.jpg",
-        "preview": "https://threeui.com/previews/constellation-field.webm",
+        "thumbnail": "/thumbnails/constellation-field.jpg",
+        "preview": "/previews/constellation-field.webm",
         "props": {}
       },
       {
         "id": "particle-drift",
         "label": "Particle Drift",
         "description": "A soft particle drift field lifted from a compute-network hero stage.",
-        "thumbnail": "https://threeui.com/thumbnails/particle-drift.jpg",
-        "preview": "https://threeui.com/previews/particle-drift.webm",
+        "thumbnail": "/thumbnails/particle-drift.jpg",
+        "preview": "/previews/particle-drift.webm",
         "props": {
           "variant": "particle-drift"
         }
@@ -14269,8 +14269,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "particle-network",
         "label": "Particle Network",
         "description": "A sharp, thin-stroke particle network field with crisp retina trails.",
-        "thumbnail": "https://threeui.com/thumbnails/particle-network.jpg",
-        "preview": "https://threeui.com/previews/particle-network.webm",
+        "thumbnail": "/thumbnails/particle-network.jpg",
+        "preview": "/previews/particle-network.webm",
         "props": {
           "variant": "particle-network"
         }
@@ -14279,8 +14279,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "gateway-flow",
         "label": "Gateway Flow",
         "description": "A black-stage flow canvas with streaming gateway trajectories.",
-        "thumbnail": "https://threeui.com/thumbnails/gateway-flow.jpg",
-        "preview": "https://threeui.com/previews/gateway-flow.webm",
+        "thumbnail": "/thumbnails/gateway-flow.jpg",
+        "preview": "/previews/gateway-flow.webm",
         "props": {
           "variant": "gateway-flow"
         }
@@ -14289,8 +14289,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "connectivity-graph",
         "label": "Connectivity Graph",
         "description": "A light-mode connectivity graph canvas with animated node links.",
-        "thumbnail": "https://threeui.com/thumbnails/connectivity-graph.jpg",
-        "preview": "https://threeui.com/previews/connectivity-graph.webm",
+        "thumbnail": "/thumbnails/connectivity-graph.jpg",
+        "preview": "/previews/connectivity-graph.webm",
         "props": {
           "variant": "connectivity-graph"
         }
@@ -14299,8 +14299,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "interface-lines",
         "label": "Interface Lines",
         "description": "A faint interface line-field background for dense system UI stages.",
-        "thumbnail": "https://threeui.com/thumbnails/interface-lines.jpg",
-        "preview": "https://threeui.com/previews/interface-lines.webm",
+        "thumbnail": "/thumbnails/interface-lines.jpg",
+        "preview": "/previews/interface-lines.webm",
         "props": {
           "variant": "interface-lines"
         }
@@ -14309,8 +14309,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "defense-lines",
         "label": "Defense Lines",
         "description": "A crimson defense-line canvas field behind a high-contrast hero stage.",
-        "thumbnail": "https://threeui.com/thumbnails/defense-lines.jpg",
-        "preview": "https://threeui.com/previews/defense-lines.webm",
+        "thumbnail": "/thumbnails/defense-lines.jpg",
+        "preview": "/previews/defense-lines.webm",
         "props": {
           "variant": "defense-lines"
         }
@@ -14319,8 +14319,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "topo-field",
         "label": "Topo Field",
         "description": "A raw-WebGL topography field with flowing elevation bands.",
-        "thumbnail": "https://threeui.com/thumbnails/topo-field.jpg",
-        "preview": "https://threeui.com/previews/topo-field.webm",
+        "thumbnail": "/thumbnails/topo-field.jpg",
+        "preview": "/previews/topo-field.webm",
         "props": {
           "variant": "topo-field"
         }
@@ -14343,7 +14343,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Particle Drift",
-    "thumbnail": "https://threeui.com/thumbnails/particle-drift.jpg",
+    "thumbnail": "/thumbnails/particle-drift.jpg",
     "description": "A soft particle drift field lifted from a compute-network hero stage.",
     "runtime": "Canvas 2D",
     "origin": "Neuform export",
@@ -14517,7 +14517,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Particle Network",
-    "thumbnail": "https://threeui.com/thumbnails/particle-network.jpg",
+    "thumbnail": "/thumbnails/particle-network.jpg",
     "description": "A sharp, thin-stroke particle network field with crisp retina trails.",
     "runtime": "Canvas 2D",
     "origin": "Neuform export",
@@ -14692,7 +14692,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Three.js",
     "label": "Flux Vortex",
-    "thumbnail": "https://threeui.com/thumbnails/flux-vortex.jpg",
+    "thumbnail": "/thumbnails/flux-vortex.jpg",
     "description": "A blooming Three.js particle vortex with spiral filaments and post-process glow.",
     "runtime": "Three.js r160",
     "origin": "Neuform export",
@@ -14858,7 +14858,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Portal Field",
-    "thumbnail": "https://threeui.com/thumbnails/portal-field.jpg",
+    "thumbnail": "/thumbnails/portal-field.jpg",
     "description": "Five ambient field backgrounds collected across Three.js, raw WebGL, and Canvas 2D renderers.",
     "runtime": "Three.js r134 + Raw WebGL + Canvas 2D",
     "origin": "Neuform export + HTML Pages",
@@ -15011,16 +15011,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "portal-field",
         "label": "Portal Field",
         "description": "A Three.js ShaderMaterial portal with pointer-reactive fringe light.",
-        "thumbnail": "https://threeui.com/thumbnails/portal-field.jpg",
-        "preview": "https://threeui.com/previews/portal-field.webm",
+        "thumbnail": "/thumbnails/portal-field.jpg",
+        "preview": "/previews/portal-field.webm",
         "props": {}
       },
       {
         "id": "cloud-field",
         "label": "Cloud Field",
         "description": "A raw-WebGL cloud migration background isolated at its source renderer boundary.",
-        "thumbnail": "https://threeui.com/thumbnails/cloud-field.jpg",
-        "preview": "https://threeui.com/previews/cloud-field.webm",
+        "thumbnail": "/thumbnails/cloud-field.jpg",
+        "preview": "/previews/cloud-field.webm",
         "props": {
           "variant": "cloud-field"
         }
@@ -15029,8 +15029,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "flow-field",
         "label": "Flow Field",
         "description": "Warm amber, gold, and coral particles trace a deterministic simplex-noise field.",
-        "thumbnail": "https://threeui.com/thumbnails/flow-field.jpg",
-        "preview": "https://threeui.com/previews/flow-field.webm",
+        "thumbnail": "/thumbnails/flow-field.jpg",
+        "preview": "/previews/flow-field.webm",
         "props": {
           "variant": "flow-field"
         }
@@ -15039,8 +15039,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "bell-field",
         "label": "Bell Field",
         "description": "A Chladni-inspired bell field with nodal metal patterns and rising foundry embers.",
-        "thumbnail": "https://threeui.com/thumbnails/bell-field.jpg",
-        "preview": "https://threeui.com/previews/bell-field.webm",
+        "thumbnail": "/thumbnails/bell-field.jpg",
+        "preview": "/previews/bell-field.webm",
         "props": {
           "variant": "bell-field"
         }
@@ -15049,8 +15049,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "stream-convergence",
         "label": "Stream Convergence",
         "description": "Three chromatically separated violet wavefronts crossing a rotated fluid field.",
-        "thumbnail": "https://threeui.com/thumbnails/stream-convergence.jpg",
-        "preview": "https://threeui.com/previews/stream-convergence.webm",
+        "thumbnail": "/thumbnails/stream-convergence.jpg",
+        "preview": "/previews/stream-convergence.webm",
         "props": {
           "variant": "stream-convergence"
         }
@@ -15075,7 +15075,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Amber Halftone",
-    "thumbnail": "https://threeui.com/thumbnails/amber-halftone.jpg",
+    "thumbnail": "/thumbnails/amber-halftone.jpg",
     "description": "An animated amber-to-white halftone point field on a dark plane.",
     "runtime": "Three.js r128",
     "origin": "Neuform export",
@@ -15249,7 +15249,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "UI Elements",
     "label": "Diagnostics Panel",
-    "thumbnail": "https://threeui.com/thumbnails/diagnostics-panel.jpg",
+    "thumbnail": "/thumbnails/diagnostics-panel.jpg",
     "description": "Three diagnostic illustration variants — layered planes, node cubes, and a flowing mesh — each isolated without page chrome or copy.",
     "runtime": "Canvas 2D",
     "origin": "Neuform export",
@@ -15392,8 +15392,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "layers",
         "label": "Layered Planes",
         "description": "Five floating isometric planes with a highlighted top layer and a cropped scan-line core.",
-        "thumbnail": "https://threeui.com/thumbnails/diagnostics-panel.jpg",
-        "preview": "https://threeui.com/previews/diagnostics-panel.webm",
+        "thumbnail": "/thumbnails/diagnostics-panel.jpg",
+        "preview": "/previews/diagnostics-panel.webm",
         "props": {
           "variant": "layers"
         }
@@ -15402,8 +15402,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "nodes",
         "label": "Node Cubes",
         "description": "Five synchronized wireframe cubes forming a softly animated diagnostic node cluster.",
-        "thumbnail": "https://threeui.com/thumbnails/diagnostics-panel-nodes.jpg",
-        "preview": "https://threeui.com/previews/diagnostics-panel-nodes.webm",
+        "thumbnail": "/thumbnails/diagnostics-panel-nodes.jpg",
+        "preview": "/previews/diagnostics-panel-nodes.webm",
         "props": {
           "variant": "nodes"
         }
@@ -15412,8 +15412,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "flow",
         "label": "Flowing Mesh",
         "description": "An isometric wire mesh that continuously ripples around a focused central peak.",
-        "thumbnail": "https://threeui.com/thumbnails/diagnostics-panel-flow.jpg",
-        "preview": "https://threeui.com/previews/diagnostics-panel-flow.webm",
+        "thumbnail": "/thumbnails/diagnostics-panel-flow.jpg",
+        "preview": "/previews/diagnostics-panel-flow.webm",
         "props": {
           "variant": "flow"
         }
@@ -15436,10 +15436,10 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "UI Elements",
     "label": "Skeuomorphic Toggle",
-    "thumbnail": "https://threeui.com/thumbnails/skeuomorphic-toggle.jpg",
+    "thumbnail": "/thumbnails/skeuomorphic-toggle.jpg",
     "description": "Four takes on one switch: the preserved tactile skeuomorphic export plus flat modern, Three.js glass, and shader-lit treatments, each matching light and dark appearances automatically.",
     "runtime": "DOM/CSS + Three.js + Raw WebGL",
-    "origin": "Preserved Neuform export + ThreeUI original variants",
+    "origin": "Preserved Neuform export + AnimatedWebs UI original variants",
     "sourceCommit": "SHA-256 3e19e7fec9ac",
     "sourceFiles": [
       "src/shaders/neuform-isolated/sources/skeuomorphic-toggle.html",
@@ -15591,16 +15591,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "skeuomorphic-toggle",
         "label": "Skeuomorphic",
         "description": "The preserved packaged export: a tactile pill with an inset track and a raised sliding thumb.",
-        "thumbnail": "https://threeui.com/thumbnails/skeuomorphic-toggle.jpg",
-        "preview": "https://threeui.com/previews/skeuomorphic-toggle.webm",
+        "thumbnail": "/thumbnails/skeuomorphic-toggle.jpg",
+        "preview": "/previews/skeuomorphic-toggle.webm",
         "props": {}
       },
       {
         "id": "modern",
         "label": "Modern",
         "description": "A flat, hairline-edged switch with a stretching knob, a check-to-dash mark, and one soft accent pool.",
-        "thumbnail": "https://threeui.com/thumbnails/skeuomorphic-toggle-modern.jpg",
-        "preview": "https://threeui.com/previews/skeuomorphic-toggle-modern.webm",
+        "thumbnail": "/thumbnails/skeuomorphic-toggle-modern.jpg",
+        "preview": "/previews/skeuomorphic-toggle-modern.webm",
         "props": {
           "variant": "modern"
         }
@@ -15609,8 +15609,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "glass",
         "label": "Glass",
         "description": "An Apple-style Three.js capsule in transmissive glass, refracting a drifting colour field around a lit core.",
-        "thumbnail": "https://threeui.com/thumbnails/skeuomorphic-toggle-glass.jpg",
-        "preview": "https://threeui.com/previews/skeuomorphic-toggle-glass.webm",
+        "thumbnail": "/thumbnails/skeuomorphic-toggle-glass.jpg",
+        "preview": "/previews/skeuomorphic-toggle-glass.webm",
         "props": {
           "variant": "glass"
         }
@@ -15619,8 +15619,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "shader",
         "label": "Shader",
         "description": "A raw-WebGL switch drawn entirely in one fragment pass: plasma interior, streaming sparks, chromatic bloom, and a pointer-lit thumb.",
-        "thumbnail": "https://threeui.com/thumbnails/skeuomorphic-toggle-shader.jpg",
-        "preview": "https://threeui.com/previews/skeuomorphic-toggle-shader.webm",
+        "thumbnail": "/thumbnails/skeuomorphic-toggle-shader.jpg",
+        "preview": "/previews/skeuomorphic-toggle-shader.webm",
         "props": {
           "variant": "shader"
         }
@@ -15650,10 +15650,10 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Laser",
-    "thumbnail": "https://threeui.com/thumbnails/matrix-field.jpg",
+    "thumbnail": "/thumbnails/matrix-field.jpg",
     "description": "Four pointer-reactive laser scenes spanning a preserved matrix junction, atmospheric blade, vanishing array, and halftone relay.",
     "runtime": "Raw WebGL",
-    "origin": "ThreeUI original variants + preserved Neuform export",
+    "origin": "AnimatedWebs UI original variants + preserved Neuform export",
     "sourceCommit": "SHA-256 70cc015d5175",
     "sourceFiles": [
       "src/shaders/laser/LaserCollection.tsx",
@@ -15778,16 +15778,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "matrix-field",
         "label": "Matrix Junction",
         "description": "The preserved pointer-reactive three-way matrix junction.",
-        "thumbnail": "https://threeui.com/thumbnails/matrix-field.jpg",
-        "preview": "https://threeui.com/previews/matrix-field.webm",
+        "thumbnail": "/thumbnails/matrix-field.jpg",
+        "preview": "/previews/matrix-field.webm",
         "props": {}
       },
       {
         "id": "atmospheric-blade",
         "label": "Atmospheric Blade",
         "description": "A white-hot emerald blade cutting through layered procedural vapor and faint mirage rails.",
-        "thumbnail": "https://threeui.com/thumbnails/laser-atmospheric-blade.jpg",
-        "preview": "https://threeui.com/previews/laser-atmospheric-blade.webm",
+        "thumbnail": "/thumbnails/laser-atmospheric-blade.jpg",
+        "preview": "/previews/laser-atmospheric-blade.webm",
         "props": {
           "variant": "atmospheric-blade"
         }
@@ -15796,8 +15796,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "vanishing-array",
         "label": "Vanishing Array",
         "description": "Violet and amber carrier rails accelerate from a pointer-steered horizon origin.",
-        "thumbnail": "https://threeui.com/thumbnails/laser-vanishing-array.jpg",
-        "preview": "https://threeui.com/previews/laser-vanishing-array.webm",
+        "thumbnail": "/thumbnails/laser-vanishing-array.jpg",
+        "preview": "/previews/laser-vanishing-array.webm",
         "props": {
           "variant": "vanishing-array"
         }
@@ -15806,8 +15806,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "halftone-relay",
         "label": "Halftone Relay",
         "description": "An off-axis cyan relay where vapor resolves into an animated screen-space dot field.",
-        "thumbnail": "https://threeui.com/thumbnails/laser-halftone-relay.jpg",
-        "preview": "https://threeui.com/previews/laser-halftone-relay.webm",
+        "thumbnail": "/thumbnails/laser-halftone-relay.jpg",
+        "preview": "/previews/laser-halftone-relay.webm",
         "props": {
           "variant": "halftone-relay"
         }
@@ -15830,7 +15830,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Gateway Flow",
-    "thumbnail": "https://threeui.com/thumbnails/gateway-flow.jpg",
+    "thumbnail": "/thumbnails/gateway-flow.jpg",
     "description": "A black-stage flow canvas with streaming gateway trajectories.",
     "runtime": "Canvas 2D",
     "origin": "Neuform export",
@@ -16004,7 +16004,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Connectivity Graph",
-    "thumbnail": "https://threeui.com/thumbnails/connectivity-graph.jpg",
+    "thumbnail": "/thumbnails/connectivity-graph.jpg",
     "description": "A light-mode connectivity graph canvas with animated node links.",
     "runtime": "Canvas 2D",
     "origin": "Neuform export",
@@ -16177,7 +16177,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Interface Lines",
-    "thumbnail": "https://threeui.com/thumbnails/interface-lines.jpg",
+    "thumbnail": "/thumbnails/interface-lines.jpg",
     "description": "A faint interface line-field background for dense system UI stages.",
     "runtime": "Canvas 2D",
     "origin": "Neuform export",
@@ -16351,7 +16351,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "UI Elements",
     "label": "Wireframe Forms",
-    "thumbnail": "https://threeui.com/thumbnails/wireframe-forms.jpg",
+    "thumbnail": "/thumbnails/wireframe-forms.jpg",
     "description": "A family of rotating wireframe forms, with the cube, crossed cylinders, and nested sphere isolated as individual variants.",
     "runtime": "Canvas 2D",
     "origin": "Neuform export",
@@ -16517,8 +16517,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "cube",
         "label": "Cube",
         "description": "The prismatic cube study isolated as a single rotating wireframe form.",
-        "thumbnail": "https://threeui.com/thumbnails/wireframe-forms.jpg",
-        "preview": "https://threeui.com/previews/wireframe-forms.webm",
+        "thumbnail": "/thumbnails/wireframe-forms.jpg",
+        "preview": "/previews/wireframe-forms.webm",
         "props": {
           "variant": "cube"
         }
@@ -16527,8 +16527,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "cylinders",
         "label": "Cylinders",
         "description": "The crossed logic cylinders isolated as a single rotating wireframe form.",
-        "thumbnail": "https://threeui.com/thumbnails/wireframe-forms-cylinders.jpg",
-        "preview": "https://threeui.com/previews/wireframe-forms-cylinders.webm",
+        "thumbnail": "/thumbnails/wireframe-forms-cylinders.jpg",
+        "preview": "/previews/wireframe-forms-cylinders.webm",
         "props": {
           "variant": "cylinders"
         }
@@ -16537,8 +16537,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "sphere",
         "label": "Sphere",
         "description": "The nested icosahedral sphere isolated as a single rotating wireframe form.",
-        "thumbnail": "https://threeui.com/thumbnails/wireframe-forms-sphere.jpg",
-        "preview": "https://threeui.com/previews/wireframe-forms-sphere.webm",
+        "thumbnail": "/thumbnails/wireframe-forms-sphere.jpg",
+        "preview": "/previews/wireframe-forms-sphere.webm",
         "props": {
           "variant": "sphere"
         }
@@ -16561,7 +16561,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Defense Lines",
-    "thumbnail": "https://threeui.com/thumbnails/defense-lines.jpg",
+    "thumbnail": "/thumbnails/defense-lines.jpg",
     "description": "A crimson defense-line canvas field behind a high-contrast hero stage.",
     "runtime": "Canvas 2D",
     "origin": "Neuform export",
@@ -16735,7 +16735,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "Backgrounds",
     "label": "Topo Field",
-    "thumbnail": "https://threeui.com/thumbnails/topo-field.jpg",
+    "thumbnail": "/thumbnails/topo-field.jpg",
     "description": "A raw-WebGL topography field with flowing elevation bands.",
     "runtime": "Raw WebGL",
     "origin": "Neuform export",
@@ -16950,7 +16950,7 @@ export const READY_SHADERS: readonly ReadyShader[] = [
     ],
     "category": "UI Elements",
     "label": "Brand Orbs",
-    "thumbnail": "https://threeui.com/thumbnails/brand-orbs.jpg",
+    "thumbnail": "/thumbnails/brand-orbs.jpg",
     "description": "Twenty-three animated brand marks rebuilt as small and medium dimensional dot orbs for AI status, product activity, and compact loading states.",
     "runtime": "Canvas 2D",
     "origin": "HTML Pages — inspired by Thinking Orbs",
@@ -17045,16 +17045,16 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "claude",
         "label": "Claude Code",
         "description": "A warm radial spark burst that expands and contracts around a bright core.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs.webm",
+        "thumbnail": "/thumbnails/brand-orbs.jpg",
+        "preview": "/previews/brand-orbs.webm",
         "props": {}
       },
       {
         "id": "openai",
         "label": "OpenAI",
         "description": "An interlocking six-loop bloom traced as a rotating monochrome dot lattice.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-openai.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-openai.webm",
+        "thumbnail": "/thumbnails/brand-orbs-openai.jpg",
+        "preview": "/previews/brand-orbs-openai.webm",
         "props": {
           "variant": "openai"
         }
@@ -17063,8 +17063,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "codex",
         "label": "Codex",
         "description": "A rounded command-prompt mark that breathes as a dimensional prompt blob.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-codex.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-codex.webm",
+        "thumbnail": "/thumbnails/brand-orbs-codex.jpg",
+        "preview": "/previews/brand-orbs-codex.webm",
         "props": {
           "variant": "codex"
         }
@@ -17073,8 +17073,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "cursor",
         "label": "Cursor",
         "description": "The Cursor arrow and frame resolved in dots with a timed click ripple.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-cursor.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-cursor.webm",
+        "thumbnail": "/thumbnails/brand-orbs-cursor.jpg",
+        "preview": "/previews/brand-orbs-cursor.webm",
         "props": {
           "variant": "cursor"
         }
@@ -17083,8 +17083,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "gemini",
         "label": "Gemini",
         "description": "A four-point Gemini twinkle with orbiting light and a soft central pulse.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-gemini.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-gemini.webm",
+        "thumbnail": "/thumbnails/brand-orbs-gemini.jpg",
+        "preview": "/previews/brand-orbs-gemini.webm",
         "props": {
           "variant": "gemini"
         }
@@ -17093,8 +17093,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "figma",
         "label": "Figma",
         "description": "Five dot swatches morph through the familiar stacked Figma silhouette.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-figma.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-figma.webm",
+        "thumbnail": "/thumbnails/brand-orbs-figma.jpg",
+        "preview": "/previews/brand-orbs-figma.webm",
         "props": {
           "variant": "figma"
         }
@@ -17103,8 +17103,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "framer",
         "label": "Framer",
         "description": "The folded Framer F rendered as shifting blue dot bands.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-framer.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-framer.webm",
+        "thumbnail": "/thumbnails/brand-orbs-framer.jpg",
+        "preview": "/previews/brand-orbs-framer.webm",
         "props": {
           "variant": "framer"
         }
@@ -17113,8 +17113,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "react",
         "label": "React",
         "description": "Three luminous electron ellipses orbit a bright React nucleus.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-react.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-react.webm",
+        "thumbnail": "/thumbnails/brand-orbs-react.jpg",
+        "preview": "/previews/brand-orbs-react.webm",
         "props": {
           "variant": "react"
         }
@@ -17123,8 +17123,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "swift",
         "label": "Swift",
         "description": "The Swift bird silhouette sweeps through a warm coral dot field.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-swift.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-swift.webm",
+        "thumbnail": "/thumbnails/brand-orbs-swift.jpg",
+        "preview": "/previews/brand-orbs-swift.webm",
         "props": {
           "variant": "swift"
         }
@@ -17133,8 +17133,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "designcode",
         "label": "DesignCode",
         "description": "The DesignCode monogram travels through a dense spherical dot field.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-designcode.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-designcode.webm",
+        "thumbnail": "/thumbnails/brand-orbs-designcode.jpg",
+        "preview": "/previews/brand-orbs-designcode.webm",
         "props": {
           "variant": "designcode"
         }
@@ -17143,8 +17143,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "aura",
         "label": "Aura",
         "description": "Aura's native asymmetric dot field carries an expanding halo of light.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-aura.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-aura.webm",
+        "thumbnail": "/thumbnails/brand-orbs-aura.jpg",
+        "preview": "/previews/brand-orbs-aura.webm",
         "props": {
           "variant": "aura"
         }
@@ -17153,8 +17153,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "dreamcut",
         "label": "DreamCut",
         "description": "Six tapered petals open, breathe, and rotate as a DreamCut bloom.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-dreamcut.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-dreamcut.webm",
+        "thumbnail": "/thumbnails/brand-orbs-dreamcut.jpg",
+        "preview": "/previews/brand-orbs-dreamcut.webm",
         "props": {
           "variant": "dreamcut"
         }
@@ -17163,8 +17163,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "ui",
         "label": "UI",
         "description": "A paneled interface window assembles from cool blue dot segments.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-ui.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-ui.webm",
+        "thumbnail": "/thumbnails/brand-orbs-ui.jpg",
+        "preview": "/previews/brand-orbs-ui.webm",
         "props": {
           "variant": "ui"
         }
@@ -17173,8 +17173,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "ux",
         "label": "UX",
         "description": "A warm journey curve connects three pulsing experience nodes.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-ux.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-ux.webm",
+        "thumbnail": "/thumbnails/brand-orbs-ux.jpg",
+        "preview": "/previews/brand-orbs-ux.webm",
         "props": {
           "variant": "ux"
         }
@@ -17183,8 +17183,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "css",
         "label": "CSS",
         "description": "The CSS lettermark emerges as a purple scan moving through a rounded field.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-css.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-css.webm",
+        "thumbnail": "/thumbnails/brand-orbs-css.jpg",
+        "preview": "/previews/brand-orbs-css.webm",
         "props": {
           "variant": "css"
         }
@@ -17193,8 +17193,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "ios",
         "label": "iOS",
         "description": "The iOS wordmark is sampled into an even monochrome dot matrix.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-ios.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-ios.webm",
+        "thumbnail": "/thumbnails/brand-orbs-ios.jpg",
+        "preview": "/previews/brand-orbs-ios.webm",
         "props": {
           "variant": "ios"
         }
@@ -17203,8 +17203,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "neuform",
         "label": "Neuform",
         "description": "Eight directional Neuform chevrons rotate around a precise center.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-neuform.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-neuform.webm",
+        "thumbnail": "/thumbnails/brand-orbs-neuform.jpg",
+        "preview": "/previews/brand-orbs-neuform.webm",
         "props": {
           "variant": "neuform"
         }
@@ -17213,8 +17213,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "github",
         "label": "GitHub",
         "description": "The Octocat silhouette appears as negative space inside a luminous orb.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-github.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-github.webm",
+        "thumbnail": "/thumbnails/brand-orbs-github.jpg",
+        "preview": "/previews/brand-orbs-github.webm",
         "props": {
           "variant": "github"
         }
@@ -17223,8 +17223,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "x",
         "label": "X",
         "description": "The X mark is swept by a rotating highlight around its diagonal strokes.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-x.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-x.webm",
+        "thumbnail": "/thumbnails/brand-orbs-x.jpg",
+        "preview": "/previews/brand-orbs-x.webm",
         "props": {
           "variant": "x"
         }
@@ -17233,8 +17233,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "instagram",
         "label": "Instagram",
         "description": "The Instagram camera mark glows through a violet-to-orange dot gradient.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-instagram.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-instagram.webm",
+        "thumbnail": "/thumbnails/brand-orbs-instagram.jpg",
+        "preview": "/previews/brand-orbs-instagram.webm",
         "props": {
           "variant": "instagram"
         }
@@ -17243,8 +17243,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "threads",
         "label": "Threads",
         "description": "The Threads loop is traced by an angular highlight sweep.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-threads.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-threads.webm",
+        "thumbnail": "/thumbnails/brand-orbs-threads.jpg",
+        "preview": "/previews/brand-orbs-threads.webm",
         "props": {
           "variant": "threads"
         }
@@ -17253,8 +17253,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "linkedin",
         "label": "LinkedIn",
         "description": "The LinkedIn mark scans across a blue rounded-square field.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-linkedin.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-linkedin.webm",
+        "thumbnail": "/thumbnails/brand-orbs-linkedin.jpg",
+        "preview": "/previews/brand-orbs-linkedin.webm",
         "props": {
           "variant": "linkedin"
         }
@@ -17263,8 +17263,8 @@ export const READY_SHADERS: readonly ReadyShader[] = [
         "id": "email",
         "label": "Email",
         "description": "A dimensional dotted envelope opens and sends a traveling signal.",
-        "thumbnail": "https://threeui.com/thumbnails/brand-orbs-email.jpg",
-        "preview": "https://threeui.com/previews/brand-orbs-email.webm",
+        "thumbnail": "/thumbnails/brand-orbs-email.jpg",
+        "preview": "/previews/brand-orbs-email.webm",
         "props": {
           "variant": "email"
         }

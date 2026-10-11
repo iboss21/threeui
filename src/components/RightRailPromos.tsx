@@ -1,4 +1,3 @@
-import { FULL_THREEUI_COLLECTION_COUNT } from "../data/mainCatalogSummary";
 
 type RightRailPromosProps = {
   onPricing: () => void;
@@ -9,10 +8,10 @@ export function RightRailPromos({ onPricing }: RightRailPromosProps) {
     <div className="rail-promos">
       <button className="pro-promo card" onClick={onPricing}>
         <span className="rail-section-label">GET PRO</span>
-        <strong>Premium landing pages + shaders.</strong>
+        <strong>AnimatedWebs Pro: cinematic templates, UI generator and MCP.</strong>
         <span className="pro-promo-link">
           <span className="pro-promo-divider" aria-hidden="true">|</span>
-          Full {FULL_THREEUI_COLLECTION_COUNT} collection
+          See plans
         </span>
       </button>
 
@@ -20,14 +19,14 @@ export function RightRailPromos({ onPricing }: RightRailPromosProps) {
         <h2 className="rail-section-label" id="sponsors-title">Sponsors</h2>
         <a
           className="sponsor-slot inset-shadow"
-          href="mailto:support@designcode.io?subject=ThreeUI%20sponsorship"
-          aria-label="Ask about the open ThreeUI sponsor slot"
+          href="https://animatedwebs.com/contact?topic=sponsor"
+          aria-label="Ask about the open AnimatedWebs UI sponsor slot"
         >
           <span>Open sponsor slot</span>
         </a>
         <a
           className="become-sponsor"
-          href="mailto:support@designcode.io?subject=ThreeUI%20sponsorship"
+          href="https://animatedwebs.com/contact?topic=sponsor"
         >
           Become a sponsor <span aria-hidden="true">→</span>
         </a>

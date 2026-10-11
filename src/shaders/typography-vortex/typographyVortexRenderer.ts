@@ -93,7 +93,7 @@ export function createTypographyVortexRenderer(
     const options = getOptions();
     const phrase = options.phrase || "SABLE / SYSTEMS IN MOTION / ";
     const random = mulberry32(7 * 17 + 3);
-    const fontFamily = '"ThreeUI Fragment Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace';
+    const fontFamily = '"AnimatedWebs UI Fragment Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace';
     const ringPixelRatio = Math.max(pixelRatio, 1.5);
     const maximumRadius = Math.hypot(Math.max(width * 0.55, width * 0.48), Math.max(height * 0.52, height * 0.5)) + 40;
     rings = [];
@@ -349,7 +349,7 @@ export function createTypographyVortexRenderer(
       layerContext.drawImage(ring.bitmap, -ring.size / 2, -ring.size / 2, ring.size, ring.size);
       layerContext.restore();
     }
-    const fontFamily = '"ThreeUI Fragment Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace';
+    const fontFamily = '"AnimatedWebs UI Fragment Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace';
     layerContext.textAlign = "center";
     layerContext.textBaseline = "middle";
     for (const stray of strays) {

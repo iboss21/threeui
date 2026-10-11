@@ -95,7 +95,7 @@ const CATEGORY_FAQS = Object.freeze({
       answer: "A Three.js component is a reusable 3D scene, interaction, or visual effect packaged so it can be adapted and added to a website without rebuilding the idea from scratch.",
     }),
     Object.freeze({
-      question: "Do ThreeUI components require React?",
+      question: "Do AnimatedWebs UI components require React?",
       answer: "Each item identifies its runtime and implementation source. Many can be adapted for React, Next.js, or vanilla JavaScript rather than locking the visual idea to one stack.",
     }),
     Object.freeze({
@@ -234,7 +234,7 @@ export function browseTagContent(tag, resultCount = 0) {
   return {
     title: `${label} Components & Templates`,
     heading: `${label} components and templates`,
-    description: `Explore ${countText}ThreeUI components, templates, backgrounds, and interactive effects tagged ${label}, with previews and editable implementation source.`,
+    description: `Explore ${countText}AnimatedWebs UI components, templates, backgrounds, and interactive effects tagged ${label}, with previews and editable implementation source.`,
   };
 }
 

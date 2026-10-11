@@ -231,7 +231,7 @@ function ThreeUIApp() {
   };
 
   const selectPricing = () => {
-    window.location.assign("https://threeui.com/pricing");
+    window.location.assign("https://animatedwebs.com/pricing");
   };
 
   const selectFooterRoute = (path: string) => {
@@ -333,7 +333,7 @@ function ThreeUIApp() {
         <button className="icon-btn" aria-label="Open navigation" onClick={() => setSidebarOpen(true)}>
           <MenuIcon />
         </button>
-        <button className="topbar-brand-button" aria-label="Browse ThreeUI" onClick={selectBrowse}>
+        <button className="topbar-brand-button" aria-label="Browse AnimatedWebs UI" onClick={selectBrowse}>
           <BrandMark compact />
         </button>
         <div className="topbar-actions">
@@ -377,7 +377,7 @@ function ThreeUIApp() {
               <main className="browse-page" aria-labelledby="not-found-title">
                 <header className="browse-header">
                   <h1 id="not-found-title">Page not found</h1>
-                  <p className="lede">This ThreeUI URL does not match a component, variant, or documentation page.</p>
+                  <p className="lede">This AnimatedWebs UI URL does not match a component, variant, or documentation page.</p>
                   <a href={STATIC_ROUTE_PATHS.browse} onClick={(event) => {
                     event.preventDefault();
                     selectBrowse();

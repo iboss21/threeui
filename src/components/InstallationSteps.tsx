@@ -30,7 +30,7 @@ export function InstallationSteps({ importName, includeStyles = false, onNotify 
       <div className="step">
         <div className="num card">1</div>
         <div className="h3row"><h3>Install the package</h3></div>
-        <p>Add ThreeUI and its React peer dependencies to your project:</p>
+        <p>Add AnimatedWebs UI and its React peer dependencies to your project:</p>
         <div className="code-card card">
           <div className="tabbar">
             <div className="tabs" role="tablist" aria-label="Package manager">

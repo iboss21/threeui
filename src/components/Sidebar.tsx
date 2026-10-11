@@ -170,7 +170,7 @@ export function Sidebar({ active, browseActive, installationActive, mcpActive, o
     <aside className={`sidebar${open ? " open" : ""}`} id="sidebar">
       <div className="sb-head">
         <div className="sb-brand-row">
-          <button className="brand-button" aria-label="Browse ThreeUI" onClick={onBrowse}>
+          <button className="brand-button" aria-label="Browse AnimatedWebs UI" onClick={onBrowse}>
             <BrandMark />
           </button>
           <GitHubStars />
@@ -182,7 +182,7 @@ export function Sidebar({ active, browseActive, installationActive, mcpActive, o
         </button>
       </div>
       <div className="sb-scroll scroll-area" onScroll={() => setPreview(null)}>
-        <nav className="sb-nav" aria-label="ThreeUI documentation">
+        <nav className="sb-nav" aria-label="AnimatedWebs UI documentation">
           <div className="nav-section">
             <h2 className="nav-label">Documentation</h2>
             <div className="nav-list nav-list-root">
@@ -210,7 +210,7 @@ export function Sidebar({ active, browseActive, installationActive, mcpActive, o
             </div>
           </div>
           <SidebarCatalogSection
-            label="ThreeUI"
+            label="AnimatedWebs UI"
             shaders={COMMUNITY_SHADERS}
             active={active}
             installationActive={installationActive || mcpActive || browseActive}

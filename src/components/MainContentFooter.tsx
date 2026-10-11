@@ -36,17 +36,17 @@ function FooterLink({ children, href, onNavigate }: FooterLinkProps) {
 
 export function MainContentFooter({ onNavigate }: MainContentFooterProps) {
   return (
-    <footer className="main-content-footer" data-main-content-footer aria-label="ThreeUI footer">
+    <footer className="main-content-footer" data-main-content-footer aria-label="AnimatedWebs UI footer">
       <div className="main-content-footer__grid">
         <div className="main-content-footer__identity">
           <FooterLink href={STATIC_ROUTE_PATHS.browse} onNavigate={onNavigate}>
-            <span className="main-content-footer__brand" aria-label="ThreeUI">
+            <span className="main-content-footer__brand" aria-label="AnimatedWebs UI">
               <svg viewBox="0 0 32 32" aria-hidden="true">
                 <circle cx="16" cy="16" r="14" />
                 <path d="M5 12.2c4.3 4.2 8.2 4.8 12.4.9 4.1-3.7 7.7-4.5 9.6-2.9" />
                 <path d="M5 19.7c4.3 4.2 8.2 4.8 12.4.9 4.1-3.7 7.7-4.5 9.6-2.9" />
               </svg>
-              <strong>threeui</strong>
+              <strong>animatedwebs ui</strong>
             </span>
           </FooterLink>
           <p>Procedural Three.js components, templates, and shaders for interactive websites.</p>
@@ -57,7 +57,7 @@ export function MainContentFooter({ onNavigate }: MainContentFooterProps) {
           {PRODUCT_LINKS.map((link) => (
             <FooterLink href={link.href} onNavigate={onNavigate} key={link.href}>{link.label}</FooterLink>
           ))}
-          <a href="https://threeui.com/pricing">Pricing</a>
+          <a href="https://animatedwebs.com/pricing">Pricing</a>
         </nav>
 
         <nav className="main-content-footer__nav" aria-label="Explore">
@@ -69,16 +69,17 @@ export function MainContentFooter({ onNavigate }: MainContentFooterProps) {
 
         <nav className="main-content-footer__nav" aria-label="Company and legal">
           <h2>More</h2>
-          <a href="https://github.com/MengTo/threeui" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://threeui.com/affiliates">Affiliates</a>
-          <a href="https://threeui.com/privacy">Privacy</a>
-          <a href="https://threeui.com/terms">Terms</a>
+          <a href="https://animatedwebs.com">AnimatedWebs</a>
+          <a href="https://github.com/MengTo/threeui" target="_blank" rel="noreferrer">Built on ThreeUI (MIT)</a>
+          <a href="https://animatedwebs.com/partners">Affiliates</a>
+          <a href="https://animatedwebs.com/privacy">Privacy</a>
+          <a href="https://animatedwebs.com/terms">Terms</a>
         </nav>
       </div>
 
       <div className="main-content-footer__meta">
-        <span>© {new Date().getFullYear()} ThreeUI</span>
-        <span>Three.js · WebGL · GLSL</span>
+        <span>© {new Date().getFullYear()} AnimatedWebs UI</span>
+        <span>Built on ThreeUI Community by Meng To · MIT License</span>
       </div>
     </footer>
   );
