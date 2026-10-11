@@ -6,7 +6,6 @@ import { COMMUNITY_NEWEST_SHADER_IDS } from "../data/communityOrder";
 import { VISIBLE_READY_SHADERS } from "../data/publicShaders";
 import { BrandMark } from "./BrandMark";
 import { ChevronIcon, MaximizeIcon, SearchIcon } from "./icons";
-import { GitHubStars } from "./GitHubStars";
 import { RightRailPromos } from "./RightRailPromos";
 import { ThemeButtons } from "./ThemeButtons";
 import { UpgradeLink } from "./UpgradeLink";
@@ -173,7 +172,7 @@ export function Sidebar({ active, browseActive, installationActive, mcpActive, o
           <button className="brand-button" aria-label="Browse AnimatedWebs UI" onClick={onBrowse}>
             <BrandMark />
           </button>
-          <GitHubStars />
+          <a href="https://animatedwebs.com" className="sb-site-link" style={{ fontSize: 12, opacity: 0.6, whiteSpace: "nowrap" }}>animatedwebs.com ↗</a>
         </div>
         <button className="search inset-shadow" onClick={onSearch}>
           <SearchIcon style={{ opacity: 0.7 }} />
